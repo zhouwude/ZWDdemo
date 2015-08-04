@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>七夕活动</title>
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1">
+  	<div class="both">
+    	<img src="images/bac.jpg" class="bac" alt="不一样的七夕" />
+        <div class="content">
+        	<p class="title">助力七夕，为爱加油！一年后，我们将在2016年9月1日至15日为您退还所有人偶货款。全国仅限前777张订单。</p>
+            <div class="btn">
+            	<button onClick="sendMesage();">我 要 参 与</button><span><img src="images/img_01.png" alt="点击我" /></span>
+            </div>
+            <p class="huodong"><span><img src="images/img_02.png" alt="活动详情" /></span></p>
+            <ul>
+            	<li>1、7月27日至8月7日在线制作七夕系列人偶并下单，即可在七夕前收货，8月7日后仍接受下单，但不确保七夕前收货；</li>
+                <li>2、收货后，在朋友圈晒出与人偶的合影，截图发至“天马行空”微信公众平台（微信号：tmxk3d），即可参与晒单赢大奖，青岛梦幻3D打印之旅等你来抢。</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function sendMesage(){  
+	var sUserAgent=navigator.userAgent.toLowerCase();
+	var bIS=sUserAgent.match(/ipad/i)=="ipad";
+	var bIsIphoneOs=sUserAgent.match(/iphone os/i)=="iphone os";
+	var bIsMidp=sUserAgent.match(/midp/i)=="midp";
+	var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+	var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+	var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+	var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+	 
+	if(bIS||bIsIphoneOs){
+		jumpActivityNoArg("TakePictureAct");
+	}else{
+		//调用android程序中的方法，并传递参数    
+		window.AndroidWebView.jumpActivityNoArg("TakePictureAct");
+	}
+
+}
+  
+  
+</script>
+</body>
+</html>

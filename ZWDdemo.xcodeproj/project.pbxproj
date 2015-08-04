@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */; };
+		6262E4DC1B671D4B00AC58CE /* ZWDStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262E4DB1B671D4B00AC58CE /* ZWDStar.m */; };
+		6262E4DE1B6720F400AC58CE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262E4DD1B6720F400AC58CE /* JavaScriptCore.framework */; };
+		6262E4E11B67234800AC58CE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262E4E01B67234800AC58CE /* WebKit.framework */; };
+		6262E4E41B67268D00AC58CE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6262E4E31B67268D00AC58CE /* index.html */; };
+		6262E4E71B67276C00AC58CE /* ZWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262E4E61B67276C00AC58CE /* ZWDViewController.m */; };
+		6262E4EC1B6730CB00AC58CE /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 6262E4EB1B6730CB00AC58CE /* index.js */; };
+		6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262E4EE1B67337D00AC58CE /* ZWDView.m */; };
+		6262E4F71B67597A00AC58CE /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = 6262E4F61B67597A00AC58CE /* index1.html */; };
+		629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */; };
+		62CBE98C1B7063E900573DA8 /* sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBE98B1B7063E900573DA8 /* sark.m */; };
+		62CBE98F1B70640D00573DA8 /* sark+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBE98E1B70640D00573DA8 /* sark+category.m */; };
 		62CED2701B64ED9D00C1034C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED26F1B64ED9D00C1034C /* main.m */; };
 		62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED2721B64ED9D00C1034C /* AppDelegate.m */; };
 		62CED2761B64ED9D00C1034C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED2751B64ED9D00C1034C /* ViewController.m */; };
@@ -14,6 +26,7 @@
 		62CED27B1B64ED9D00C1034C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CED27A1B64ED9D00C1034C /* Images.xcassets */; };
 		62CED27E1B64ED9D00C1034C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62CED27C1B64ED9D00C1034C /* LaunchScreen.xib */; };
 		62CED28A1B64ED9D00C1034C /* ZWDdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED2891B64ED9D00C1034C /* ZWDdemoTests.m */; };
+		A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C094BF799D785FD715845 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032F93A811B7F3BC0040258D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		288C094BF799D785FD715845 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2894438EE090D7640629B74E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6213B0C81B6C7B940082C5C1 /* ZWDTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDTwoView.h; sourceTree = "<group>"; };
+		6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDTwoView.m; sourceTree = "<group>"; };
+		6262E4DA1B671D4B00AC58CE /* ZWDStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDStar.h; sourceTree = "<group>"; };
+		6262E4DB1B671D4B00AC58CE /* ZWDStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDStar.m; sourceTree = "<group>"; };
+		6262E4DD1B6720F400AC58CE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6262E4E01B67234800AC58CE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6262E4E31B67268D00AC58CE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		6262E4E51B67276C00AC58CE /* ZWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDViewController.h; sourceTree = "<group>"; };
+		6262E4E61B67276C00AC58CE /* ZWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDViewController.m; sourceTree = "<group>"; };
+		6262E4EB1B6730CB00AC58CE /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		6262E4ED1B67337D00AC58CE /* ZWDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDView.h; sourceTree = "<group>"; };
+		6262E4EE1B67337D00AC58CE /* ZWDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDView.m; sourceTree = "<group>"; };
+		6262E4F61B67597A00AC58CE /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
+		629D90821B662CFC0038D6DF /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		62CBE98A1B7063E900573DA8 /* sark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sark.h; sourceTree = "<group>"; };
+		62CBE98B1B7063E900573DA8 /* sark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sark.m; sourceTree = "<group>"; };
+		62CBE98D1B70640D00573DA8 /* sark+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sark+category.h"; sourceTree = "<group>"; };
+		62CBE98E1B70640D00573DA8 /* sark+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "sark+category.m"; sourceTree = "<group>"; };
 		62CED26A1B64ED9D00C1034C /* ZWDdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWDdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CED26E1B64ED9D00C1034C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62CED26F1B64ED9D00C1034C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6262E4E11B67234800AC58CE /* WebKit.framework in Frameworks */,
+				6262E4DE1B6720F400AC58CE /* JavaScriptCore.framework in Frameworks */,
+				A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		452AF69BB32AC78571247F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6262E4E01B67234800AC58CE /* WebKit.framework */,
+				6262E4DD1B6720F400AC58CE /* JavaScriptCore.framework */,
+				288C094BF799D785FD715845 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		629D90811B662CFC0038D6DF /* DLIntrospection */ = {
+			isa = PBXGroup;
+			children = (
+				6262E4F61B67597A00AC58CE /* index1.html */,
+				6262E4EB1B6730CB00AC58CE /* index.js */,
+				6262E4E31B67268D00AC58CE /* index.html */,
+				629D90821B662CFC0038D6DF /* NSObject+DLIntrospection.h */,
+				629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */,
+			);
+			path = DLIntrospection;
+			sourceTree = "<group>";
+		};
 		62CED2611B64ED9D00C1034C = {
 			isa = PBXGroup;
 			children = (
+				629D90811B662CFC0038D6DF /* DLIntrospection */,
 				62CED26C1B64ED9D00C1034C /* ZWDdemo */,
 				62CED2861B64ED9D00C1034C /* ZWDdemoTests */,
 				62CED26B1B64ED9D00C1034C /* Products */,
+				BE584EFFF331F7F8698F9063 /* Pods */,
+				452AF69BB32AC78571247F72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +148,18 @@
 				62CED2721B64ED9D00C1034C /* AppDelegate.m */,
 				62CED2741B64ED9D00C1034C /* ViewController.h */,
 				62CED2751B64ED9D00C1034C /* ViewController.m */,
+				6262E4DA1B671D4B00AC58CE /* ZWDStar.h */,
+				6262E4DB1B671D4B00AC58CE /* ZWDStar.m */,
+				6262E4E51B67276C00AC58CE /* ZWDViewController.h */,
+				6262E4E61B67276C00AC58CE /* ZWDViewController.m */,
+				6262E4ED1B67337D00AC58CE /* ZWDView.h */,
+				6262E4EE1B67337D00AC58CE /* ZWDView.m */,
+				6213B0C81B6C7B940082C5C1 /* ZWDTwoView.h */,
+				6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */,
+				62CBE98A1B7063E900573DA8 /* sark.h */,
+				62CBE98B1B7063E900573DA8 /* sark.m */,
+				62CBE98D1B70640D00573DA8 /* sark+category.h */,
+				62CBE98E1B70640D00573DA8 /* sark+category.m */,
 				62CED2771B64ED9D00C1034C /* Main.storyboard */,
 				62CED27A1B64ED9D00C1034C /* Images.xcassets */,
 				62CED27C1B64ED9D00C1034C /* LaunchScreen.xib */,
@@ -119,6 +194,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE584EFFF331F7F8698F9063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				032F93A811B7F3BC0040258D /* Pods.debug.xcconfig */,
+				2894438EE090D7640629B74E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62CED28D1B64ED9D00C1034C /* Build configuration list for PBXNativeTarget "ZWDdemo" */;
 			buildPhases = (
+				D250BF199791825712C75E1D /* Check Pods Manifest.lock */,
 				62CED2661B64ED9D00C1034C /* Sources */,
 				62CED2671B64ED9D00C1034C /* Frameworks */,
 				62CED2681B64ED9D00C1034C /* Resources */,
+				EA69947E6FDB6EE347DB7E5D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +249,7 @@
 		62CED2621B64ED9D00C1034C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZWD;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "周武德";
 				TargetAttributes = {
@@ -199,9 +286,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6262E4EC1B6730CB00AC58CE /* index.js in Resources */,
 				62CED2791B64ED9D00C1034C /* Main.storyboard in Resources */,
 				62CED27E1B64ED9D00C1034C /* LaunchScreen.xib in Resources */,
 				62CED27B1B64ED9D00C1034C /* Images.xcassets in Resources */,
+				6262E4E41B67268D00AC58CE /* index.html in Resources */,
+				6262E4F71B67597A00AC58CE /* index1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +304,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D250BF199791825712C75E1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA69947E6FDB6EE347DB7E5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62CED2661B64ED9D00C1034C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CBE98F1B70640D00573DA8 /* sark+category.m in Sources */,
+				6262E4DC1B671D4B00AC58CE /* ZWDStar.m in Sources */,
+				6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */,
 				62CED2761B64ED9D00C1034C /* ViewController.m in Sources */,
+				629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */,
+				6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */,
 				62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */,
+				6262E4E71B67276C00AC58CE /* ZWDViewController.m in Sources */,
+				62CBE98C1B7063E900573DA8 /* sark.m in Sources */,
 				62CED2701B64ED9D00C1034C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,9 +475,11 @@
 		};
 		62CED28E1B64ED9D00C1034C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032F93A811B7F3BC0040258D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWDdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +487,11 @@
 		};
 		62CED28F1B64ED9D00C1034C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2894438EE090D7640629B74E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWDdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +550,7 @@
 				62CED28F1B64ED9D00C1034C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62CED2901B64ED9D00C1034C /* Build configuration list for PBXNativeTarget "ZWDdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +559,7 @@
 				62CED2921B64ED9D00C1034C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

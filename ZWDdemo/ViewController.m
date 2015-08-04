@@ -7,20 +7,40 @@
 //
 
 #import "ViewController.h"
+#import "ZWDStar.h"
+#import <objc/runtime.h>
+#import "NSObject+DLIntrospection.h"
+@interface ViewController (){
 
-@interface ViewController ()
+}
 
 @end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    ZWDStar *sark = [ZWDStar new];
+    NSLog(@" point1 %@",[sark class]);
+    NSLog(@" point1 %@",object_getClass(sark));
+    // breakpoint 1
+    [sark addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+    // breakpoint 2
+    NSLog(@" point2 %@",[sark class]);
+    NSLog(@" point2 %@",object_getClass(sark));
+    sark.name = @"萨萨萨";
+    [sark removeObserver:self forKeyPath:@"name"];
+    NSLog(@" point3 %@",[sark class]);
+    NSLog(@" point3 %@",object_getClass(sark));
+    // breakpoint 3
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
+}
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 
