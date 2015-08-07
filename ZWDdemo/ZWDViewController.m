@@ -10,11 +10,14 @@
 #import <JavaScriptCore/JavaScriptCore.h>
 #import "ZWDTwoView.h"
 #import "sark.h"
+#import <sys/utsname.h>
 @interface ZWDViewController ()<UIWebViewDelegate>{
     ZWDTwoView *webView;
      id obj;
     sark *sarkObject;
 }
+@property(nonatomic,strong)NSString *array1;
+@property(nonatomic,assign)NSString *array2;
 
 @end
 
@@ -71,8 +74,25 @@
     [invocation getReturnValue:&obj];
     NSLog(@"%@",obj);
     NSLog(@"%d",[[self class] resolveInstanceMethod:mySel]);
-  
+    self.array1 = [[NSString alloc] init];
+    self.array2 = self.array1;
+    self.array1 = nil;
+    NSLog(@"----%@",self.array2);
+    
      //NSProxy
+}
+NSString *machineName()
+{
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    
+    NSString *iOSDeviceModelsPath = [[NSBundle mainBundle] pathForResource:@"iOSDeviceModelMapping" ofType:@"plist"];
+    NSDictionary *iOSDevices = [NSDictionary dictionaryWithContentsOfFile:iOSDeviceModelsPath];
+    
+    NSString* deviceModel = [NSString stringWithCString:systemInfo.machine
+                                               encoding:NSUTF8StringEncoding];
+    
+    return [iOSDevices valueForKey:deviceModel];
 }
 //第一步
 +(BOOL)resolveInstanceMethod:(SEL)sel{
