@@ -51,7 +51,7 @@
 //    id obj4 = [NSMutableArray alloc];
     
 // 对不可变空数组的优化 地址相同 只有 arr5不相同
-    
+    self.view.backgroundColor = [UIColor redColor];
     NSArray *arr1 = [[NSArray alloc] init];
     NSArray *arr2 = [[NSArray alloc] init];
     NSArray *arr3 = @[];

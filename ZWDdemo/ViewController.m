@@ -32,6 +32,7 @@
     [sark removeObserver:self forKeyPath:@"name"];
     NSLog(@" point3 %@",[sark class]);
     NSLog(@" point3 %@",object_getClass(sark));
+    
     // breakpoint 3
     // Do any additional setup after loading the view, typically from a nib.
 }
