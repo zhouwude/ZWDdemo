@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3362DF43511E67C85D32DA43C4A233E2 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF52DC3ED73F01D67306EA2F356CA52A /* KVOController-dummy.m */; };
 		35FDA778974765891EFC2F4DDE740D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8036F95AF3CCAA72696E7CE003767BB5 /* Foundation.framework */; };
-		5460A3F5AEC2CC07BD2AC32BAE8D16E9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF3D5C7AE9F6232B70BDDB07EFB8447 /* Pods-dummy.m */; };
+		65290E5EAFA6D12FD8FBF405B1602916 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6E9D7D6A202FFA4A2AD8072D6A18FC /* FBKVOController.h */; };
 		6B079E4368240C3EF7130219EA9DF971 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EEBB581352C0EF372B3B557263830F /* UITableView+FDTemplateLayoutCell.m */; };
-		895F70C6E8AF30A104CC11F92374BE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8036F95AF3CCAA72696E7CE003767BB5 /* Foundation.framework */; };
+		73AB5313EBE5D4BC37366DCFA828EEE0 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A12EED58E32176BFF153DAB5CD81B58 /* FBKVOController.m */; };
+		86A948FAA8C773F365D7130322666481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8036F95AF3CCAA72696E7CE003767BB5 /* Foundation.framework */; };
 		8CB064FD9F3002940C16DCB579E88F24 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C891B6E820F79A06FBA048D2A2A32A6 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
 		8D380B23A72FDEB2E0F227547CE817C9 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D95704C48022A89B1256C44B7441695 /* UITableView+FDTemplateLayoutCell.h */; };
+		F242DA4E60FD57FC807320EB0F1423F4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C39B9DDD6F254278B62813604D2D2F74 /* Pods-dummy.m */; };
+		FEF572AD29330B3430BC74A873A9D56F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8036F95AF3CCAA72696E7CE003767BB5 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8EF1CD2DDEAEE07BECFABF0E18770551 /* PBXContainerItemProxy */ = {
+		8C7FDCC385312C966C07F36BC21C44E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A5F78CF03D9F3F93CFE4AAEC8DAA56;
+			remoteInfo = KVOController;
+		};
+		B012842ABC1037A31A5B469A9ABA46C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -26,21 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B947619EA5B9991CBED9493A49E4318 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
 		19F830CABFD7C5AB3A939E4B18915F47 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A12EED58E32176BFF153DAB5CD81B58 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		1EB2BD429B956645E1FA55478969BA6C /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
 		20CAA2622445F9C6720303980DC8E05B /* UITableView+FDTemplateLayoutCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell-Private.xcconfig"; sourceTree = "<group>"; };
-		42A9BA8745622D925C31D488F304546A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		4C891B6E820F79A06FBA048D2A2A32A6 /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
-		53E08B2E87089F70B6951E700047ECCD /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
-		62E18442B6FE1366FB6FF0C0670F21CB /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
-		6488BBC43B65BA9A1C2B58008F8CA15C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		6CF3D5C7AE9F6232B70BDDB07EFB8447 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		6EDEC8F60E260EF704F36F897CA8DE98 /* libKVOController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKVOController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8DCE7967F001AF920934F897B825C7 /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
 		8036F95AF3CCAA72696E7CE003767BB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		918020A53BC2361920A627EF1A70307B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		94177A5B47BAC483A5ED375060A47E95 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		9D95704C48022A89B1256C44B7441695 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		A5F822E59C48343778A7A0893BEB2933 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA6E9D7D6A202FFA4A2AD8072D6A18FC /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
 		B0EEBB581352C0EF372B3B557263830F /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		B3BB5840B4BDD2DDB6F5AB1247265D75 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		C4F62FB5F0ED969B9B5133B55E04143F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4CDD551684CAB4148C54755CED33B4 /* KVOController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KVOController-Private.xcconfig"; sourceTree = "<group>"; };
+		BFE1FEA7ADDD459C98C6C67352D194EB /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		C39B9DDD6F254278B62813604D2D2F74 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF52DC3ED73F01D67306EA2F356CA52A /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		ED784B8409F1344DD53426A30B69619D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1944820E7D8C2E4D67A5E2513CF0AD /* libUITableView+FDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUITableView+FDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,17 +71,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E11DDDD2512CD8EDD8364F0AA583F00B /* Frameworks */ = {
+		D85BAC234BA9FEE3A0D34A2CC5964B6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895F70C6E8AF30A104CC11F92374BE07 /* Foundation.framework in Frameworks */,
+				86A948FAA8C773F365D7130322666481 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E314BEAF3772E1FF449241D866D08CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF572AD29330B3430BC74A873A9D56F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F414954F87ED957BE121A1660094A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9382C8A0AC449B023FE8B3B51AC0EC5B /* KVOController */,
+				43DDB033E69E2AFADD3A83671DAFA340 /* UITableView+FDTemplateLayoutCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33A2DFA941E11F4B5B7E005D2FE0A3E5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,24 +107,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		426005341C787B511746476D1FDBE668 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				53E08B2E87089F70B6951E700047ECCD /* UITableView+FDTemplateLayoutCell.xcconfig */,
-				20CAA2622445F9C6720303980DC8E05B /* UITableView+FDTemplateLayoutCell-Private.xcconfig */,
-				4C891B6E820F79A06FBA048D2A2A32A6 /* UITableView+FDTemplateLayoutCell-dummy.m */,
-				62E18442B6FE1366FB6FF0C0670F21CB /* UITableView+FDTemplateLayoutCell-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
-			sourceTree = "<group>";
-		};
-		44080FE82CA4F43CC81D1BD529272DE7 /* UITableView+FDTemplateLayoutCell */ = {
+		43DDB033E69E2AFADD3A83671DAFA340 /* UITableView+FDTemplateLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
 				9D95704C48022A89B1256C44B7441695 /* UITableView+FDTemplateLayoutCell.h */,
 				B0EEBB581352C0EF372B3B557263830F /* UITableView+FDTemplateLayoutCell.m */,
-				426005341C787B511746476D1FDBE668 /* Support Files */,
+				83F5A7260BD441F33BA309F4A2ED93C4 /* Support Files */,
 			);
 			path = "UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
@@ -107,10 +130,10 @@
 			children = (
 				19F830CABFD7C5AB3A939E4B18915F47 /* Pods-acknowledgements.markdown */,
 				A5F822E59C48343778A7A0893BEB2933 /* Pods-acknowledgements.plist */,
-				6CF3D5C7AE9F6232B70BDDB07EFB8447 /* Pods-dummy.m */,
+				C39B9DDD6F254278B62813604D2D2F74 /* Pods-dummy.m */,
 				B3BB5840B4BDD2DDB6F5AB1247265D75 /* Pods-resources.sh */,
-				42A9BA8745622D925C31D488F304546A /* Pods.debug.xcconfig */,
-				6488BBC43B65BA9A1C2B58008F8CA15C /* Pods.release.xcconfig */,
+				94177A5B47BAC483A5ED375060A47E95 /* Pods.debug.xcconfig */,
+				918020A53BC2361920A627EF1A70307B /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
@@ -121,10 +144,34 @@
 			children = (
 				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
 				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
-				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
+				2F414954F87ED957BE121A1660094A49 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		826CE77C7E7E0D3CAF4B05D5A5ECDD32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EB2BD429B956645E1FA55478969BA6C /* KVOController.xcconfig */,
+				BD4CDD551684CAB4148C54755CED33B4 /* KVOController-Private.xcconfig */,
+				DF52DC3ED73F01D67306EA2F356CA52A /* KVOController-dummy.m */,
+				0B947619EA5B9991CBED9493A49E4318 /* KVOController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		83F5A7260BD441F33BA309F4A2ED93C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D8DCE7967F001AF920934F897B825C7 /* UITableView+FDTemplateLayoutCell.xcconfig */,
+				20CAA2622445F9C6720303980DC8E05B /* UITableView+FDTemplateLayoutCell-Private.xcconfig */,
+				4C891B6E820F79A06FBA048D2A2A32A6 /* UITableView+FDTemplateLayoutCell-dummy.m */,
+				BFE1FEA7ADDD459C98C6C67352D194EB /* UITableView+FDTemplateLayoutCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
 		848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */ = {
@@ -135,21 +182,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9382C8A0AC449B023FE8B3B51AC0EC5B /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E9D7D6A202FFA4A2AD8072D6A18FC /* FBKVOController.h */,
+				1A12EED58E32176BFF153DAB5CD81B58 /* FBKVOController.m */,
+				826CE77C7E7E0D3CAF4B05D5A5ECDD32 /* Support Files */,
+			);
+			path = KVOController;
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4F62FB5F0ED969B9B5133B55E04143F /* libPods.a */,
+				6EDEC8F60E260EF704F36F897CA8DE98 /* libKVOController.a */,
+				ED784B8409F1344DD53426A30B69619D /* libPods.a */,
 				EF1944820E7D8C2E4D67A5E2513CF0AD /* libUITableView+FDTemplateLayoutCell.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				44080FE82CA4F43CC81D1BD529272DE7 /* UITableView+FDTemplateLayoutCell */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,24 +213,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2C373830121C0EDFC2C7E2A6C544A9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65290E5EAFA6D12FD8FBF405B1602916 /* FBKVOController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D991E7647338654F8B2E4C7467E824B /* Pods */ = {
+		277B0C4BF83B4D8D1DEC8548033D7128 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 601EBE105172F82C7B97464B16805E51 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 53B44C7CFF0E028838E5ABA692A63598 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				892B28034A25F8A913541AC9C665E66B /* Sources */,
-				E11DDDD2512CD8EDD8364F0AA583F00B /* Frameworks */,
+				5830286D6C84B727E502C3D7579F8FA8 /* Sources */,
+				E314BEAF3772E1FF449241D866D08CE9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6A0492EC7CCA125065B817B1C455BEBC /* PBXTargetDependency */,
+				EEDF0DCE2E3AFA37F5F4DA823A163E96 /* PBXTargetDependency */,
+				3A0189219F3BD25E7D75FBE02BC4DF4C /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = C4F62FB5F0ED969B9B5133B55E04143F /* libPods.a */;
+			productReference = ED784B8409F1344DD53426A30B69619D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67A5F78CF03D9F3F93CFE4AAEC8DAA56 /* KVOController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FD024CDD574125A300DBAA291CCA76 /* Build configuration list for PBXNativeTarget "KVOController" */;
+			buildPhases = (
+				FCFFD154FAF9E9F199B14347B9A74A1C /* Sources */,
+				D85BAC234BA9FEE3A0D34A2CC5964B6E /* Frameworks */,
+				C2C373830121C0EDFC2C7E2A6C544A9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOController;
+			productName = KVOController;
+			productReference = 6EDEC8F60E260EF704F36F897CA8DE98 /* libKVOController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D7960206D57C86D4C2827DEE033D3D48 /* UITableView+FDTemplateLayoutCell */ = {
@@ -221,7 +297,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D991E7647338654F8B2E4C7467E824B /* Pods */,
+				67A5F78CF03D9F3F93CFE4AAEC8DAA56 /* KVOController */,
+				277B0C4BF83B4D8D1DEC8548033D7128 /* Pods */,
 				D7960206D57C86D4C2827DEE033D3D48 /* UITableView+FDTemplateLayoutCell */,
 			);
 		};
@@ -237,26 +314,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		892B28034A25F8A913541AC9C665E66B /* Sources */ = {
+		5830286D6C84B727E502C3D7579F8FA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5460A3F5AEC2CC07BD2AC32BAE8D16E9 /* Pods-dummy.m in Sources */,
+				F242DA4E60FD57FC807320EB0F1423F4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFFD154FAF9E9F199B14347B9A74A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AB5313EBE5D4BC37366DCFA828EEE0 /* FBKVOController.m in Sources */,
+				3362DF43511E67C85D32DA43C4A233E2 /* KVOController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6A0492EC7CCA125065B817B1C455BEBC /* PBXTargetDependency */ = {
+		3A0189219F3BD25E7D75FBE02BC4DF4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITableView+FDTemplateLayoutCell";
 			target = D7960206D57C86D4C2827DEE033D3D48 /* UITableView+FDTemplateLayoutCell */;
-			targetProxy = 8EF1CD2DDEAEE07BECFABF0E18770551 /* PBXContainerItemProxy */;
+			targetProxy = B012842ABC1037A31A5B469A9ABA46C7 /* PBXContainerItemProxy */;
+		};
+		EEDF0DCE2E3AFA37F5F4DA823A163E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = 67A5F78CF03D9F3F93CFE4AAEC8DAA56 /* KVOController */;
+			targetProxy = 8C7FDCC385312C966C07F36BC21C44E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2B971AF66335462EF384400CE37F49CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4CDD551684CAB4148C54755CED33B4 /* KVOController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		3523159348E1035C58EF859238BFEDB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -296,25 +404,9 @@
 			};
 			name = Debug;
 		};
-		5F42CE1AB8E0E78E7310FB51F6DBD7BF /* Release */ = {
+		412FE87EC81ABB2D46DFC8463A2B7B55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6488BBC43B65BA9A1C2B58008F8CA15C /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A809F61CEF5D0D42ABA23AD1F4DEC0EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42A9BA8745622D925C31D488F304546A /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 94177A5B47BAC483A5ED375060A47E95 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -327,6 +419,22 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		45B6D62078F926A75666A9BDD7D72A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918020A53BC2361920A627EF1A70307B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		A88658A9552ACB0502744ED7A6EDBEFD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -359,6 +467,22 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4F224FD4B2458C5C45B30D708F8B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4CDD551684CAB4148C54755CED33B4 /* KVOController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -415,11 +539,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		601EBE105172F82C7B97464B16805E51 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		53B44C7CFF0E028838E5ABA692A63598 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A809F61CEF5D0D42ABA23AD1F4DEC0EA /* Debug */,
-				5F42CE1AB8E0E78E7310FB51F6DBD7BF /* Release */,
+				412FE87EC81ABB2D46DFC8463A2B7B55 /* Debug */,
+				45B6D62078F926A75666A9BDD7D72A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FD024CDD574125A300DBAA291CCA76 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B971AF66335462EF384400CE37F49CB /* Debug */,
+				DA4F224FD4B2458C5C45B30D708F8B1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

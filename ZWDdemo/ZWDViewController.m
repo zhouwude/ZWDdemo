@@ -79,8 +79,17 @@
     self.array1 = nil;
     NSLog(@"----%@",self.array2);
     
-     //NSProxy
+    for(int i =0;i<100;i++){
+        
+       
+    }
+    //UIView *view = [[[UIView alloc] init] autorelease];
+    //[view release];
+//    NSArray *array = @[];
+//    NSObject *object = array[2];
+ 
 }
+
 NSString *machineName()
 {
     struct utsname systemInfo;

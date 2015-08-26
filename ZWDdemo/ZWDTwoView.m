@@ -19,6 +19,9 @@
 */
 -(void)dealloc{
     NSLog(@"子类");
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    shapeLayer.path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight | UIRectCornerBottomLeft cornerRadii:CGSizeMake(0, 0)].CGPath;
+    self.layer.mask = shapeLayer;
 }
 
 @end
