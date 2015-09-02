@@ -37,7 +37,7 @@
         <!--second-->
         <scene sceneID="vZ8-7b-SQw">
             <objects>
-                <viewController id="yrp-Gt-Q5v" sceneMemberID="viewController">
+                <viewController id="yrp-Gt-Q5v" customClass="ZWDsecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oOE-i2-PkF"/>
                         <viewControllerLayoutGuide type="bottom" id="uYv-uD-uPl"/>

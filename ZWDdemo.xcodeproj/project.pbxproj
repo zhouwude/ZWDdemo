@@ -29,6 +29,9 @@
 		62D183CD1B8AF23D0014FE0F /* NSArray+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D183CC1B8AF23D0014FE0F /* NSArray+Swizzle.m */; };
 		62D183D11B8AF8AC0014FE0F /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D183CF1B8AF8AC0014FE0F /* JRSwizzle.m */; };
 		62D209361B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D209351B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.m */; };
+		62D2287B1B95949F00DDB9AE /* ZWDsecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2287A1B95949F00DDB9AE /* ZWDsecondViewController.m */; };
+		62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D228811B9686F900DDB9AE /* ZWDSuperClass.m */; };
+		62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D228841B96871100DDB9AE /* ZWDChildClass.m */; };
 		A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C094BF799D785FD715845 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +87,12 @@
 		62D183CF1B8AF8AC0014FE0F /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRSwizzle.m; path = ../JRSwizzle.m; sourceTree = "<group>"; };
 		62D209341B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ZWDNTNUExtensions.h"; sourceTree = "<group>"; };
 		62D209351B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ZWDNTNUExtensions.m"; sourceTree = "<group>"; };
+		62D228791B95949F00DDB9AE /* ZWDsecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDsecondViewController.h; sourceTree = "<group>"; };
+		62D2287A1B95949F00DDB9AE /* ZWDsecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDsecondViewController.m; sourceTree = "<group>"; };
+		62D228801B9686F900DDB9AE /* ZWDSuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDSuperClass.h; sourceTree = "<group>"; };
+		62D228811B9686F900DDB9AE /* ZWDSuperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDSuperClass.m; sourceTree = "<group>"; };
+		62D228831B96871100DDB9AE /* ZWDChildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDChildClass.h; sourceTree = "<group>"; };
+		62D228841B96871100DDB9AE /* ZWDChildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDChildClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +169,8 @@
 			children = (
 				62CED2711B64ED9D00C1034C /* AppDelegate.h */,
 				62CED2721B64ED9D00C1034C /* AppDelegate.m */,
+				62D228791B95949F00DDB9AE /* ZWDsecondViewController.h */,
+				62D2287A1B95949F00DDB9AE /* ZWDsecondViewController.m */,
 				62CED2741B64ED9D00C1034C /* ViewController.h */,
 				62CED2751B64ED9D00C1034C /* ViewController.m */,
 				6262E4DA1B671D4B00AC58CE /* ZWDStar.h */,
@@ -174,6 +185,10 @@
 				62CBE98B1B7063E900573DA8 /* sark.m */,
 				62CBE98D1B70640D00573DA8 /* sark+category.h */,
 				62CBE98E1B70640D00573DA8 /* sark+category.m */,
+				62D228801B9686F900DDB9AE /* ZWDSuperClass.h */,
+				62D228811B9686F900DDB9AE /* ZWDSuperClass.m */,
+				62D228831B96871100DDB9AE /* ZWDChildClass.h */,
+				62D228841B96871100DDB9AE /* ZWDChildClass.m */,
 				62CED2771B64ED9D00C1034C /* Main.storyboard */,
 				62CED27A1B64ED9D00C1034C /* Images.xcassets */,
 				62CED27C1B64ED9D00C1034C /* LaunchScreen.xib */,
@@ -365,13 +380,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D2287B1B95949F00DDB9AE /* ZWDsecondViewController.m in Sources */,
 				62CBE98F1B70640D00573DA8 /* sark+category.m in Sources */,
 				6262E4DC1B671D4B00AC58CE /* ZWDStar.m in Sources */,
 				62D209361B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.m in Sources */,
 				62D183CD1B8AF23D0014FE0F /* NSArray+Swizzle.m in Sources */,
 				6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */,
+				62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */,
 				62CED2761B64ED9D00C1034C /* ViewController.m in Sources */,
 				629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */,
+				62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */,
 				6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */,
 				62D183D11B8AF8AC0014FE0F /* JRSwizzle.m in Sources */,
 				62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */,
@@ -504,7 +522,8 @@
 			baseConfigurationReference = 032F93A811B7F3BC0040258D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ZWDdemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -517,7 +536,8 @@
 			baseConfigurationReference = 2894438EE090D7640629B74E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ZWDdemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

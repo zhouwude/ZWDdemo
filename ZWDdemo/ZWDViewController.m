@@ -22,9 +22,15 @@
 @end
 
 @implementation ZWDViewController
-
+static NSString *str = @"abcd";
++(void)abcd{
+    NSLog(@"-___%@",str);
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+     NSLog(@"-___++++++%@",str);
+    static NSString *str = @"1111111111";
+    NSLog(@"-___++++++%@",str);
     sarkObject = [[sark alloc] init];
     webView= [[ZWDTwoView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:webView];
@@ -137,6 +143,10 @@ NSString *machineName()
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)viewWillAppear:(BOOL)animated{
+    NSLog(@"-___++++++%@",str);
+    [super viewWillAppear:animated];
 }
 
 @end

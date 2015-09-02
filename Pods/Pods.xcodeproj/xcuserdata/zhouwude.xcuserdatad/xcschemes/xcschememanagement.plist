@@ -19,15 +19,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIView+FDCollapsibleConstraints.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>277B0C4BF83B4D8D1DEC8548033D7128</key>
+		<key>13A1C4E8DE583075598E06797BCB85D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>67A5F78CF03D9F3F93CFE4AAEC8DAA56</key>
+		<key>2E807951027BF3F397ACA050D231210A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>816DCC803EC52048CC139F10235A974E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

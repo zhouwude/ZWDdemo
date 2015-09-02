@@ -13,14 +13,30 @@
 @end
 
 @implementation AppDelegate
-
+/**
+ const 常量
+ 
+ 现在使用的多得是 const 常量
+ 
+ 在方法体内使用
+ static const CGFloat KCellHight = 126.f;
+ 
+ 在类文件中使用, 在.m 文件中
+ const CGFloat KXRBtnSendHeight = 44;
+ 
+ 如果需要提供给外部使用，使用 extern 修饰：
+ 只需要在.h 中使用 extern 外部声明即可
+ extern const CGFloat KXRBtnSendHeight;
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    ZWDViewController *vc = [[ZWDViewController alloc] init];
-    self.window.rootViewController = vc;
-    [self.window makeKeyAndVisible];
+    //self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    ZWDViewController *vc = [[ZWDViewController alloc] init];
+//    [ZWDViewController abcd];
+//    self.window.rootViewController = vc;
+//    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+    
     return YES;
 }
 
@@ -33,7 +49,15 @@
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
-
+/**
+ *  如果你的方法是没有参数的，只需要写一句注释，那只需要在方法前加注释就行了
+ *
+ *  @return void
+ */
+/**hehe */
+-(void)hehe{
+    
+}
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }

@@ -481,7 +481,7 @@ static CGFloat const _FDTemplateLayoutCellHeightCacheAbsentValue = -1;
 {
     return [objc_getAssociatedObject(self, _cmd) boolValue];
 }
-
+//在类目中 是不能添加属性的。故用对象关联来创建对象。
 - (void)setFd_debugLogEnabled:(BOOL)debugLogEnabled
 {
     objc_setAssociatedObject(self, @selector(fd_debugLogEnabled), @(debugLogEnabled), OBJC_ASSOCIATION_RETAIN);

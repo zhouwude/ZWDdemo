@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ZWDViewController : UIViewController
-
++(void)abcd;
 @end
