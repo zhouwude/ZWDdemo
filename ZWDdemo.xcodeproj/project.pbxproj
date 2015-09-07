@@ -19,6 +19,10 @@
 		629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */; };
 		62CBE98C1B7063E900573DA8 /* sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBE98B1B7063E900573DA8 /* sark.m */; };
 		62CBE98F1B70640D00573DA8 /* sark+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBE98E1B70640D00573DA8 /* sark+category.m */; };
+		62CD2D2B1B9D302F00EED513 /* UIView+extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD2D2A1B9D302F00EED513 /* UIView+extention.m */; };
+		62CD9D511B9C8898007B6278 /* ZWDViewControllerIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD9D4F1B9C8898007B6278 /* ZWDViewControllerIB.m */; };
+		62CD9D521B9C8898007B6278 /* ZWDViewControllerIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62CD9D501B9C8898007B6278 /* ZWDViewControllerIB.xib */; };
+		62CD9D561B9C8A1F007B6278 /* ZWDYCCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD9D551B9C8A1F007B6278 /* ZWDYCCustomView.m */; };
 		62CED2701B64ED9D00C1034C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED26F1B64ED9D00C1034C /* main.m */; };
 		62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED2721B64ED9D00C1034C /* AppDelegate.m */; };
 		62CED2761B64ED9D00C1034C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CED2751B64ED9D00C1034C /* ViewController.m */; };
@@ -68,6 +72,13 @@
 		62CBE98B1B7063E900573DA8 /* sark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sark.m; sourceTree = "<group>"; };
 		62CBE98D1B70640D00573DA8 /* sark+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sark+category.h"; sourceTree = "<group>"; };
 		62CBE98E1B70640D00573DA8 /* sark+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "sark+category.m"; sourceTree = "<group>"; };
+		62CD2D291B9D302F00EED513 /* UIView+extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extention.h"; sourceTree = "<group>"; };
+		62CD2D2A1B9D302F00EED513 /* UIView+extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extention.m"; sourceTree = "<group>"; };
+		62CD9D4E1B9C8898007B6278 /* ZWDViewControllerIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDViewControllerIB.h; sourceTree = "<group>"; };
+		62CD9D4F1B9C8898007B6278 /* ZWDViewControllerIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDViewControllerIB.m; sourceTree = "<group>"; };
+		62CD9D501B9C8898007B6278 /* ZWDViewControllerIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWDViewControllerIB.xib; sourceTree = "<group>"; };
+		62CD9D541B9C8A1F007B6278 /* ZWDYCCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDYCCustomView.h; sourceTree = "<group>"; };
+		62CD9D551B9C8A1F007B6278 /* ZWDYCCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDYCCustomView.m; sourceTree = "<group>"; };
 		62CED26A1B64ED9D00C1034C /* ZWDdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWDdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CED26E1B64ED9D00C1034C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62CED26F1B64ED9D00C1034C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -193,6 +204,13 @@
 				62CED27A1B64ED9D00C1034C /* Images.xcassets */,
 				62CED27C1B64ED9D00C1034C /* LaunchScreen.xib */,
 				62CED26D1B64ED9D00C1034C /* Supporting Files */,
+				62CD9D4E1B9C8898007B6278 /* ZWDViewControllerIB.h */,
+				62CD9D4F1B9C8898007B6278 /* ZWDViewControllerIB.m */,
+				62CD9D501B9C8898007B6278 /* ZWDViewControllerIB.xib */,
+				62CD9D541B9C8A1F007B6278 /* ZWDYCCustomView.h */,
+				62CD9D551B9C8A1F007B6278 /* ZWDYCCustomView.m */,
+				62CD2D291B9D302F00EED513 /* UIView+extention.h */,
+				62CD2D2A1B9D302F00EED513 /* UIView+extention.m */,
 			);
 			path = ZWDdemo;
 			sourceTree = "<group>";
@@ -325,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6262E4EC1B6730CB00AC58CE /* index.js in Resources */,
+				62CD9D521B9C8898007B6278 /* ZWDViewControllerIB.xib in Resources */,
 				62CED2791B64ED9D00C1034C /* Main.storyboard in Resources */,
 				62CED27E1B64ED9D00C1034C /* LaunchScreen.xib in Resources */,
 				62CED27B1B64ED9D00C1034C /* Images.xcassets in Resources */,
@@ -385,9 +404,12 @@
 				6262E4DC1B671D4B00AC58CE /* ZWDStar.m in Sources */,
 				62D209361B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.m in Sources */,
 				62D183CD1B8AF23D0014FE0F /* NSArray+Swizzle.m in Sources */,
+				62CD9D561B9C8A1F007B6278 /* ZWDYCCustomView.m in Sources */,
 				6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */,
+				62CD9D511B9C8898007B6278 /* ZWDViewControllerIB.m in Sources */,
 				62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */,
 				62CED2761B64ED9D00C1034C /* ViewController.m in Sources */,
+				62CD2D2B1B9D302F00EED513 /* UIView+extention.m in Sources */,
 				629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */,
 				62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */,
 				6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */,

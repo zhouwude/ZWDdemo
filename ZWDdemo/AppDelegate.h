@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <objc/runtime.h>
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 /**
  *  参数的注释
