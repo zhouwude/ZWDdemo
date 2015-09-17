@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+IB_DESIGNABLE
 @interface UIView (extention)
 // 注意: 加上IBInspectable就可以可视化显示相关的属性哦
 /** 可视化设置边框宽度 */

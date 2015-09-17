@@ -62,6 +62,8 @@ static int abcd = 0;
     
     NSLog(@"   %d    %@",abcd,NSStringFromSelector(method_getName(e)));
     [ZWDSuperClass alloc];
+    NSArray *array = @[@{@"A":@"B"},@{@"A":@"C"},@{@"A":@"D"}];
+    NSLog(@"   %@",[array valueForKeyPath:@"A"]);
     
     
     

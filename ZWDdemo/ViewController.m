@@ -14,12 +14,14 @@
 
 }
 
+@property (weak, nonatomic) IBOutlet UIButton *button;
 @end
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self.button setTitle:@"周武德\ue415服务网发" forState:UIControlStateNormal];
+    
     ZWDStar *sark = [ZWDStar new];
     NSLog(@" point1 %@",[sark class]);
     NSLog(@" point1 %@",object_getClass(sark));
@@ -41,8 +43,6 @@
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
-    
-    // Dispose of any resources that can be recreated.
 }
 
 @end
