@@ -17,6 +17,8 @@
 		6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262E4EE1B67337D00AC58CE /* ZWDView.m */; };
 		6262E4F71B67597A00AC58CE /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = 6262E4F61B67597A00AC58CE /* index1.html */; };
 		629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */; };
+		62B83E011BB043FC00474AB2 /* persion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62B83DFF1BB043FC00474AB2 /* persion.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		62B83E031BB04AA600474AB2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B83E021BB04AA600474AB2 /* CoreData.framework */; };
 		62CBE98C1B7063E900573DA8 /* sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBE98B1B7063E900573DA8 /* sark.m */; };
 		62CBE98F1B70640D00573DA8 /* sark+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBE98E1B70640D00573DA8 /* sark+category.m */; };
 		62CD2D2B1B9D302F00EED513 /* UIView+extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD2D2A1B9D302F00EED513 /* UIView+extention.m */; };
@@ -68,6 +70,8 @@
 		6262E4F61B67597A00AC58CE /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index1.html; path = DLIntrospection/index1.html; sourceTree = "<group>"; };
 		629D90821B662CFC0038D6DF /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
 		629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		62B83E001BB043FC00474AB2 /* persion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = persion.xcdatamodel; sourceTree = "<group>"; };
+		62B83E021BB04AA600474AB2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		62CBE98A1B7063E900573DA8 /* sark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sark.h; sourceTree = "<group>"; };
 		62CBE98B1B7063E900573DA8 /* sark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sark.m; sourceTree = "<group>"; };
 		62CBE98D1B70640D00573DA8 /* sark+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sark+category.h"; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B83E031BB04AA600474AB2 /* CoreData.framework in Frameworks */,
 				6262E4E11B67234800AC58CE /* WebKit.framework in Frameworks */,
 				6262E4DE1B6720F400AC58CE /* JavaScriptCore.framework in Frameworks */,
 				A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */,
@@ -130,6 +135,7 @@
 		452AF69BB32AC78571247F72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62B83E021BB04AA600474AB2 /* CoreData.framework */,
 				6262E4E01B67234800AC58CE /* WebKit.framework */,
 				6262E4DD1B6720F400AC58CE /* JavaScriptCore.framework */,
 				288C094BF799D785FD715845 /* libPods.a */,
@@ -154,6 +160,7 @@
 		62CED2611B64ED9D00C1034C = {
 			isa = PBXGroup;
 			children = (
+				62B83DFF1BB043FC00474AB2 /* persion.xcdatamodeld */,
 				6262E4EB1B6730CB00AC58CE /* index.js */,
 				6262E4E31B67268D00AC58CE /* index.html */,
 				6262E4F61B67597A00AC58CE /* index1.html */,
@@ -415,6 +422,7 @@
 				6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */,
 				62D183D11B8AF8AC0014FE0F /* JRSwizzle.m in Sources */,
 				62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */,
+				62B83E011BB043FC00474AB2 /* persion.xcdatamodeld in Sources */,
 				6262E4E71B67276C00AC58CE /* ZWDViewController.m in Sources */,
 				62CBE98C1B7063E900573DA8 /* sark.m in Sources */,
 				62CED2701B64ED9D00C1034C /* main.m in Sources */,
@@ -632,6 +640,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62B83DFF1BB043FC00474AB2 /* persion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62B83E001BB043FC00474AB2 /* persion.xcdatamodel */,
+			);
+			currentVersion = 62B83E001BB043FC00474AB2 /* persion.xcdatamodel */;
+			path = persion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 62CED2621B64ED9D00C1034C /* Project object */;
 }

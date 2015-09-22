@@ -2,6 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Card+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:Card+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:Card.h">
+   </FileRef>
+   <FileRef
+      location = "group:Card.m">
+   </FileRef>
+   <FileRef
+      location = "group:Person+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:Person+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:Person.h">
+   </FileRef>
+   <FileRef
+      location = "group:Person.m">
+   </FileRef>
+   <FileRef
       location = "group:ZWDdemo.xcodeproj">
    </FileRef>
    <FileRef
