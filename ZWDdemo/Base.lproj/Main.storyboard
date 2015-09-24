@@ -224,7 +224,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMI-i4-3pz">
                                                 <rect key="frame" x="15" y="50" width="570" height="467"/>
-                                                <mutableString key="text">里昂说，傻逼。
+                                                <string key="text">里昂说，傻逼。
 我说太过了，不要这么说自己。
 里昂想了想说，贱人。
 我说这也太过了，毕竟你深爱过她。
@@ -243,14 +243,14 @@
 
 在那一瞬间，我突然有种心理上嫉妒枷锁般的认同感。
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hz-y9-V7b">
                                                 <rect key="frame" x="15" y="567" width="570" height="467"/>
-                                                <mutableString key="text">里昂说，傻逼。
+                                                <string key="text">里昂说，傻逼。
 我说太过了，不要这么说自己。
 里昂想了想说，贱人。
 我说这也太过了，毕竟你深爱过她。
@@ -269,14 +269,14 @@
 
 在那一瞬间，我突然有种心理上嫉妒枷锁般的认同感。
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7y4-6H-VGR">
                                                 <rect key="frame" x="15" y="1084" width="570" height="467"/>
-                                                <mutableString key="text">里昂说，傻逼。
+                                                <string key="text">里昂说，傻逼。
 我说太过了，不要这么说自己。
 里昂想了想说，贱人。
 我说这也太过了，毕竟你深爱过她。
@@ -295,9 +295,9 @@
 
 在那一瞬间，我突然有种心理上嫉妒枷锁般的认同感。
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
