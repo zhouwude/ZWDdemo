@@ -11,12 +11,15 @@
 #import "ZWDTwoView.h"
 #import "sark.h"
 #import <sys/utsname.h>
+//所以为了防止写一大堆 nonnull，Foundation 还提供了一对儿宏，包在里面的对象默认加 nonnull 修饰符，只需要把 nullable 的指出来就行，黑话叫 Audited Regions
+//Nullability 在编译器层面提供了空值的类型检查，在类型不符时给出 warning，方便开发者第一时间发现潜在问题。不过我想更大的意义在于能够更加清楚的描述接口，是主调者和被调者间的一个协议
+NS_ASSUME_NONNULL_BEGIN
 @interface ZWDViewController ()<UIWebViewDelegate>{
-    ZWDTwoView *webView;
-     id obj;
-    sark *sarkObject;
+    ZWDTwoView * _Nullable webView;
+     id __nonnull obj;
+    sark * _Nonnull sarkObject;
 }
-@property(nonatomic,strong)NSString *array1;
+@property(nonatomic,strong,nullable)NSString *array1;
 @property(nonatomic,assign)NSString *array2;
 
 @end
@@ -24,6 +27,7 @@
 @implementation ZWDViewController
 static NSString *str = @"abcd";
 +(void)abcd{
+
     NSLog(@"-___%@",str);
 }
 - (void)viewDidLoad {
@@ -148,5 +152,5 @@ NSString *machineName()
     NSLog(@"-___++++++%@",str);
     [super viewWillAppear:animated];
 }
-
+NS_ASSUME_NONNULL_END
 @end

@@ -13,7 +13,7 @@
 @interface ViewController (){
 
 }
-
+@property(nonatomic,strong,nullable)ZWDStar *sark;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 @end
 @implementation ViewController
@@ -22,18 +22,18 @@
     [super viewDidLoad];
     [self.button setTitle:@"周武德\ue415服务网发" forState:UIControlStateNormal];
     
-    ZWDStar *sark = [ZWDStar new];
-    NSLog(@" point1 %@",[sark class]);
-    NSLog(@" point1 %@",object_getClass(sark));
+    self.sark = [ZWDStar new];
+    NSLog(@" point1 %@",[_sark class]);
+    NSLog(@" point1 %@",object_getClass(_sark));
     // breakpoint 1
-    [sark addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+    [_sark addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
     // breakpoint 2
-    NSLog(@" point2 %@",[sark class]);
-    NSLog(@" point2 %@",object_getClass(sark));
-    sark.name = @"萨萨萨";
-    [sark removeObserver:self forKeyPath:@"name"];
-    NSLog(@" point3 %@",[sark class]);
-    NSLog(@" point3 %@",object_getClass(sark));
+    NSLog(@" point2 %@",[_sark class]);
+    NSLog(@" point2 %@",object_getClass(_sark));
+    _sark.name = @"萨萨萨";
+    [_sark removeObserver:self forKeyPath:@"name"];
+    NSLog(@" point3 %@",[_sark class]);
+    NSLog(@" point3 %@",object_getClass(_sark));
     
     // breakpoint 3
     // Do any additional setup after loading the view, typically from a nib.

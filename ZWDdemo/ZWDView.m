@@ -20,8 +20,13 @@
         htmlPath=[htmlPath stringByAppendingPathComponent:@"index1.html"];
         NSURL *localURL=[[NSURL alloc]initFileURLWithPath:htmlPath];
         [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://210.14.155.56:8382/platform/data/server/static/qixi/qixi.html"]]];
+         [self addSubview:self.webview];
+//判断是模拟器还是真机
+#if !TARGET_IPHONE_SIMULATOR
+       
+#else
         
-        [self addSubview:self.webview];
+#endif
         /*
          在上述代码中，使用javascriptCore.framework，首先使用UIWebview加载一个静态网页，并
          
