@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KVOController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2E807951027BF3F397ACA050D231210A</key>
+		<key>1BC38044DFCA0439C30818278197410B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>816DCC803EC52048CC139F10235A974E</key>
+		<key>6F813C1BE941E69A438744929BE34327</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87F23290E24A2EA09E56FF10C079BA28</key>
 		<dict>
 			<key>primary</key>
 			<true/>

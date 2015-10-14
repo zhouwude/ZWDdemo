@@ -64,7 +64,7 @@
 		6262E4E31B67268D00AC58CE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = DLIntrospection/index.html; sourceTree = "<group>"; };
 		6262E4E51B67276C00AC58CE /* ZWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDViewController.h; sourceTree = "<group>"; };
 		6262E4E61B67276C00AC58CE /* ZWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDViewController.m; sourceTree = "<group>"; };
-		6262E4EB1B6730CB00AC58CE /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = DLIntrospection/index.js; sourceTree = "<group>"; };
+		6262E4EB1B6730CB00AC58CE /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../index.js; sourceTree = "<group>"; };
 		6262E4ED1B67337D00AC58CE /* ZWDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDView.h; sourceTree = "<group>"; };
 		6262E4EE1B67337D00AC58CE /* ZWDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDView.m; sourceTree = "<group>"; };
 		6262E4F61B67597A00AC58CE /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index1.html; path = DLIntrospection/index1.html; sourceTree = "<group>"; };
@@ -161,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				62B83DFF1BB043FC00474AB2 /* persion.xcdatamodeld */,
-				6262E4EB1B6730CB00AC58CE /* index.js */,
 				6262E4E31B67268D00AC58CE /* index.html */,
 				6262E4F61B67597A00AC58CE /* index1.html */,
 				629D90811B662CFC0038D6DF /* DLIntrospection */,
@@ -251,6 +250,7 @@
 		62D183D31B8AF8D70014FE0F /* Method Swizzling */ = {
 			isa = PBXGroup;
 			children = (
+				6262E4EB1B6730CB00AC58CE /* index.js */,
 				62D183CE1B8AF8AC0014FE0F /* JRSwizzle.h */,
 				62D183CF1B8AF8AC0014FE0F /* JRSwizzle.m */,
 			);

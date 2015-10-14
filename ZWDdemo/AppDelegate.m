@@ -30,6 +30,7 @@
  */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"------%@",[[NSBundle mainBundle] pathForResource:@"index" ofType:@"js"]);
     //self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 //    ZWDViewController *vc = [[ZWDViewController alloc] init];
 //    [ZWDViewController abcd];

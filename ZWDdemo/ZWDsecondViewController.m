@@ -24,6 +24,11 @@ static int abcd = 0;
 }
 - (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder {
   if (self = [super initWithCoder:aDecoder]) {
+//TODO: + 说明：如果代码中有该标识，说明在标识处有功能代码待编写，待实现的功能在说明中会简略说明//TODO: 。
+      
+//FIXME: + 说明：如果代码中有该标识，说明标识处代码需要修正，甚至代码是错误的，不能工作，需要修复，如何修正会在说明中简略说明。
+//XXX: + 说明：如果代码中有该标识，说明标识处代码虽然实现了功能，但是实现的方法有待商榷，希望将来能改进，要改进的地方会在说明中简略说明。
+
     NSLog(@"++++++++");
     // [self hehe];
     NSArray *array = @[].mutableCopy;
@@ -60,7 +65,6 @@ static int abcd = 0;
   abcd++;
   SEL i = _cmd;
   Method e = class_getInstanceMethod([self class], i);
-
   NSLog(@"   %d    %@", abcd, NSStringFromSelector(method_getName(e)));
   [ZWDSuperClass alloc];
   NSArray<NSDictionary *> *array =
@@ -80,9 +84,6 @@ NSLog(@"%@",@([array firstObject].count));
 }
 #endif
 - (void)dealloc {
-}
-- (void)viewDidAppear:(BOOL)animated {
-  [super viewDidAppear:animated];
 }
 - (void)setIsGUanLian:(BOOL)IsGUanLian {
   objc_setAssociatedObject(self, @selector(setIsGUanLian:), @(IsGUanLian),
