@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ZWDViewController.h"
+#import "NSString+CustomFont.h"
+#import "UIFont+CustomFont.h"
 @interface AppDelegate ()
 
 @end
@@ -31,12 +33,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"------%@",[[NSBundle mainBundle] pathForResource:@"index" ofType:@"js"]);
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
     //self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 //    ZWDViewController *vc = [[ZWDViewController alloc] init];
 //    [ZWDViewController abcd];
 //    self.window.rootViewController = vc;
 //    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+   
     
     return YES;
 }
@@ -69,6 +73,12 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+//让XCode的 Stack Trace信息可读
+void uncaughtExceptionHandler(NSException *exception) {
+    NSLog(@"CRASH: %@", exception);
+    NSLog(@"Stack Trace: %@", [exception callStackSymbols]);
+    // Internal error reporting
 }
 
 @end

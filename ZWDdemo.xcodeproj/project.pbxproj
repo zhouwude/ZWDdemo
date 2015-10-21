@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */; };
+		622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87AD1BCE46B300E087C3 /* FontInfo.m */; settings = {ASSET_TAGS = (); }; };
+		622E87B21BCE47A300E087C3 /* UIFont+WDCustomLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87B11BCE47A300E087C3 /* UIFont+WDCustomLoader.m */; settings = {ASSET_TAGS = (); }; };
+		622E87B51BCE480A00E087C3 /* UIFont+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87B41BCE480A00E087C3 /* UIFont+CustomFont.m */; settings = {ASSET_TAGS = (); }; };
+		622E87B81BCE48E900E087C3 /* NSString+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87B71BCE48E900E087C3 /* NSString+CustomFont.m */; settings = {ASSET_TAGS = (); }; };
+		622E87BB1BCE49F000E087C3 /* ZWDFontUseViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87BA1BCE49F000E087C3 /* ZWDFontUseViewCon.m */; settings = {ASSET_TAGS = (); }; };
 		6262E4DC1B671D4B00AC58CE /* ZWDStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262E4DB1B671D4B00AC58CE /* ZWDStar.m */; };
 		6262E4DE1B6720F400AC58CE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262E4DD1B6720F400AC58CE /* JavaScriptCore.framework */; };
 		6262E4E11B67234800AC58CE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262E4E01B67234800AC58CE /* WebKit.framework */; };
@@ -38,6 +43,7 @@
 		62D2287B1B95949F00DDB9AE /* ZWDsecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2287A1B95949F00DDB9AE /* ZWDsecondViewController.m */; };
 		62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D228811B9686F900DDB9AE /* ZWDSuperClass.m */; };
 		62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D228841B96871100DDB9AE /* ZWDChildClass.m */; };
+		62FDC1F61BD09F9F002F4197 /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FDC1F51BD09F9F002F4197 /* customButton.m */; settings = {ASSET_TAGS = (); }; };
 		A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C094BF799D785FD715845 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +63,16 @@
 		2894438EE090D7640629B74E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6213B0C81B6C7B940082C5C1 /* ZWDTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDTwoView.h; sourceTree = "<group>"; };
 		6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDTwoView.m; sourceTree = "<group>"; };
+		622E87AC1BCE46B300E087C3 /* FontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontInfo.h; path = ../ZWDdemo/FontInfo.h; sourceTree = "<group>"; };
+		622E87AD1BCE46B300E087C3 /* FontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontInfo.m; path = ../ZWDdemo/FontInfo.m; sourceTree = "<group>"; };
+		622E87B01BCE47A300E087C3 /* UIFont+WDCustomLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+WDCustomLoader.h"; path = "../UIFont+WDCustomLoader.h"; sourceTree = "<group>"; };
+		622E87B11BCE47A300E087C3 /* UIFont+WDCustomLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+WDCustomLoader.m"; path = "../UIFont+WDCustomLoader.m"; sourceTree = "<group>"; };
+		622E87B31BCE480A00E087C3 /* UIFont+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CustomFont.h"; sourceTree = "<group>"; };
+		622E87B41BCE480A00E087C3 /* UIFont+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CustomFont.m"; sourceTree = "<group>"; };
+		622E87B61BCE48E900E087C3 /* NSString+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CustomFont.h"; sourceTree = "<group>"; };
+		622E87B71BCE48E900E087C3 /* NSString+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CustomFont.m"; sourceTree = "<group>"; };
+		622E87B91BCE49F000E087C3 /* ZWDFontUseViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDFontUseViewCon.h; sourceTree = "<group>"; };
+		622E87BA1BCE49F000E087C3 /* ZWDFontUseViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDFontUseViewCon.m; sourceTree = "<group>"; };
 		6262E4DA1B671D4B00AC58CE /* ZWDStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDStar.h; sourceTree = "<group>"; };
 		6262E4DB1B671D4B00AC58CE /* ZWDStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDStar.m; sourceTree = "<group>"; };
 		6262E4DD1B6720F400AC58CE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -108,6 +124,8 @@
 		62D228811B9686F900DDB9AE /* ZWDSuperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDSuperClass.m; sourceTree = "<group>"; };
 		62D228831B96871100DDB9AE /* ZWDChildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDChildClass.h; sourceTree = "<group>"; };
 		62D228841B96871100DDB9AE /* ZWDChildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDChildClass.m; sourceTree = "<group>"; };
+		62FDC1F41BD09F9F002F4197 /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customButton.h; sourceTree = "<group>"; };
+		62FDC1F51BD09F9F002F4197 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +161,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		622E87AF1BCE477300E087C3 /* fontLoad */ = {
+			isa = PBXGroup;
+			children = (
+				622E87B01BCE47A300E087C3 /* UIFont+WDCustomLoader.h */,
+				622E87B11BCE47A300E087C3 /* UIFont+WDCustomLoader.m */,
+				622E87AC1BCE46B300E087C3 /* FontInfo.h */,
+				622E87AD1BCE46B300E087C3 /* FontInfo.m */,
+				622E87B31BCE480A00E087C3 /* UIFont+CustomFont.h */,
+				622E87B41BCE480A00E087C3 /* UIFont+CustomFont.m */,
+				622E87B61BCE48E900E087C3 /* NSString+CustomFont.h */,
+				622E87B71BCE48E900E087C3 /* NSString+CustomFont.m */,
+				622E87B91BCE49F000E087C3 /* ZWDFontUseViewCon.h */,
+				622E87BA1BCE49F000E087C3 /* ZWDFontUseViewCon.m */,
+			);
+			path = fontLoad;
+			sourceTree = "<group>";
+		};
 		629D90811B662CFC0038D6DF /* DLIntrospection */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +195,9 @@
 		62CED2611B64ED9D00C1034C = {
 			isa = PBXGroup;
 			children = (
+				62FDC1F41BD09F9F002F4197 /* customButton.h */,
+				62FDC1F51BD09F9F002F4197 /* customButton.m */,
+				622E87AF1BCE477300E087C3 /* fontLoad */,
 				62B83DFF1BB043FC00474AB2 /* persion.xcdatamodeld */,
 				6262E4E31B67268D00AC58CE /* index.html */,
 				6262E4F61B67597A00AC58CE /* index1.html */,
@@ -278,6 +316,7 @@
 				62CED2671B64ED9D00C1034C /* Frameworks */,
 				62CED2681B64ED9D00C1034C /* Resources */,
 				EA69947E6FDB6EE347DB7E5D /* Copy Pods Resources */,
+				02F1E96E7255000EB8A8D436 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,6 +408,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02F1E96E7255000EB8A8D436 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D250BF199791825712C75E1D /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,13 +469,19 @@
 				6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */,
 				62CD9D511B9C8898007B6278 /* ZWDViewControllerIB.m in Sources */,
 				62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */,
+				622E87B51BCE480A00E087C3 /* UIFont+CustomFont.m in Sources */,
 				62CED2761B64ED9D00C1034C /* ViewController.m in Sources */,
 				62CD2D2B1B9D302F00EED513 /* UIView+extention.m in Sources */,
+				62FDC1F61BD09F9F002F4197 /* customButton.m in Sources */,
 				629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */,
+				622E87B81BCE48E900E087C3 /* NSString+CustomFont.m in Sources */,
 				62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */,
+				622E87B21BCE47A300E087C3 /* UIFont+WDCustomLoader.m in Sources */,
 				6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */,
 				62D183D11B8AF8AC0014FE0F /* JRSwizzle.m in Sources */,
 				62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */,
+				622E87BB1BCE49F000E087C3 /* ZWDFontUseViewCon.m in Sources */,
+				622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */,
 				62B83E011BB043FC00474AB2 /* persion.xcdatamodeld in Sources */,
 				6262E4E71B67276C00AC58CE /* ZWDViewController.m in Sources */,
 				62CBE98C1B7063E900573DA8 /* sark.m in Sources */,

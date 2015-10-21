@@ -1,19 +1,22 @@
 PODS:
+  - CustomStackView (1.0.2)
   - IQKeyboardManager (3.2.3)
   - KVOController (1.0.3)
   - UITableView+FDTemplateLayoutCell (1.2)
   - UIView+FDCollapsibleConstraints (1.1)
 
 DEPENDENCIES:
+  - CustomStackView (~> 1.0.2)
   - IQKeyboardManager (~> 3.2.3)
   - KVOController
   - UITableView+FDTemplateLayoutCell (~> 1.2)
   - UIView+FDCollapsibleConstraints (~> 1.1)
 
 SPEC CHECKSUMS:
+  CustomStackView: 8b0db42d67a5f63faea39a2a860d427c728ade69
   IQKeyboardManager: 6ca5c54e3776eb54af4c7caf515833f3cd761d59
   KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
   UITableView+FDTemplateLayoutCell: 355e1c52461bf51e2338f443ee358faca9628878
   UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
 
-COCOAPODS: 0.38.0
+COCOAPODS: 0.39.0

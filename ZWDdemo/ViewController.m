@@ -10,11 +10,12 @@
 #import "ZWDStar.h"
 #import <objc/runtime.h>
 #import "NSObject+DLIntrospection.h"
+#import "customButton.h"
 @interface ViewController (){
 
 }
 @property(nonatomic,strong,nullable)ZWDStar *sark;
-@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet customButton *button;
 @end
 @implementation ViewController
 

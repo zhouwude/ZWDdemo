@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4DD8B39CED18670A9C08B5B0'
-               BlueprintName = 'UIView+FDCollapsibleConstraints'
+               BlueprintIdentifier = '24953F2C74F9192A83622082'
+               BlueprintName = 'CustomStackView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libUIView+FDCollapsibleConstraints.a'>
+               BuildableName = 'libCustomStackView.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -237,4 +237,5 @@ static void getSuper(Class class, NSMutableString *result) {
      [NSString stringWithCString:property_getName(prop) encoding:NSUTF8StringEncoding]];
     return [property copy];
 }
+
 @end

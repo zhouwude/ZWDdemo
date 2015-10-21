@@ -10,6 +10,7 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 #import "ZWDSuperClass.h"
+#import <CoreText/CoreText.h>
 @implementation ZWDsecondViewController
 #if 3
 static int abcd = 0;
@@ -91,5 +92,20 @@ NSLog(@"%@",@([array firstObject].count));
 }
 - (BOOL)IsGUanLian {
   return [objc_getAssociatedObject(self, @selector(setIsGUanLian:)) boolValue];
+}
+
+
+
+-(UIFont*)customFontWithPath:(NSString*)path size:(CGFloat)size
+{
+    NSURL *fontUrl = [NSURL fileURLWithPath:path];
+    CGDataProviderRef fontDataProvider = CGDataProviderCreateWithURL((__bridge CFURLRef)fontUrl);
+    CGFontRef fontRef = CGFontCreateWithDataProvider(fontDataProvider);
+    CGDataProviderRelease(fontDataProvider);
+    CTFontManagerRegisterGraphicsFont(fontRef, NULL);
+    NSString *fontName = CFBridgingRelease(CGFontCopyPostScriptName(fontRef));
+    UIFont *font = [UIFont fontWithName:fontName size:size];
+    CGFontRelease(fontRef);
+    return font;
 }
 @end
