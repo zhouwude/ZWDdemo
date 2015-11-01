@@ -5,16 +5,34 @@
 //  Created by 周武德 on 15/7/26.
 //  Copyright (c) 2015年 周武德. All rights reserved.
 //
+@import QuartzCore;
 
 #import "AppDelegate.h"
 #import "ZWDViewController.h"
 #import "NSString+CustomFont.h"
 #import "UIFont+CustomFont.h"
-@interface AppDelegate ()
+@interface AppDelegate (){
+    
+}
 
 @end
 
 @implementation AppDelegate
+/*
+ #include做的事情其实就是简单的复制粘贴，将目标.h文件中的内容一字不落地拷贝到当前文件中，并替换掉这句include，而#import实质上做的事情和#include是一样的，只不过OC为了避免重复引用可能带来的编译错误（这种情况在引用关系复杂的时候很可能发生，比如B和C都引用了A，D又同时引用了B和C，这样A中定义的东西就在D中被定义了两次，重复了），而加入了#import，从而保证每个头文件只会被引用一次。
+ 这个Module定义了首要头文件（UIKit.h），需要导出的子modules（所有），以及需要link的框架名称（UIKit）。需要指出的是，现在Module还不支持第三方的框架，所以只有SDK内置的框架能够从这个特性中受益。另外，在C++的源代码中，Modules也是被禁用的。
+ 如果想深究，import的实现是通过#ifndef一个标志进行判断，然后在引入后#define这个标志，来避免重复引用的 预处理器变量经常用全大写字母表示（宏都用全大写表示）
+ #ifndef taget_class_h
+ #define taget_class_h
+ 
+ 类的代码都放在 这个里面
+ 
+ #endif
+
+ */
+
+
+
 /**
  const 常量
  
@@ -68,6 +86,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

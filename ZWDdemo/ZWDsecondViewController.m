@@ -95,7 +95,10 @@ NSLog(@"%@",@([array firstObject].count));
 }
 
 
+#ifndef D
 
+
+#endif
 -(UIFont*)customFontWithPath:(NSString*)path size:(CGFloat)size
 {
     NSURL *fontUrl = [NSURL fileURLWithPath:path];

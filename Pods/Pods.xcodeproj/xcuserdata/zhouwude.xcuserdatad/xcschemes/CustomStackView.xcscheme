@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '24953F2C74F9192A83622082'
+               BlueprintIdentifier = 'B1C5D93460E74B883EA50619'
                BlueprintName = 'CustomStackView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libCustomStackView.a'>
