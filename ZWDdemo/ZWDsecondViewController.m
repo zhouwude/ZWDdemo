@@ -41,8 +41,16 @@ static int abcd = 0;
     objc_msgSend([self class], @selector(hehe));
     NSLog(@"----%@----%@", array, NSStringFromSelector(_cmd));
     [[self class] hehe];
+//      dispatch_queue_t  queue = dispatch_queue_create("hhhh", DISPATCH_QUEUE_CONCURRENT);
+
   }
   return self;
+}
+
+-(void)ttt{
+    [[NSRunLoop currentRunLoop] run];
+    NSLog(@"---------thread-");
+    
 }
 - (void)awakeFromNib {
   NSLog(@"========%@", NSStringFromSelector(_cmd));
@@ -63,6 +71,8 @@ static int abcd = 0;
 }
 #ifdef A
 + (void)hehe {
+//    _objc_msgForward是 IMP 类型，用于消息转发的：当向一个对象发送一条消息，但它并没有实现的时候，_objc_msgForward会尝试做消息转发
+    IMP msgForwardIMP = _objc_msgForward;
   abcd++;
   SEL i = _cmd;
   Method e = class_getInstanceMethod([self class], i);
@@ -82,6 +92,19 @@ NSLog(@"%@",@([array firstObject].count));
   NSLog(@"   %@", [array valueForKeyPath:@"A"]);
     NSArray <NSString *>*array1 = @[@"",@"",@""];
     NSLog(@"  %@",@([array1 firstObject].length));
+    NSLog(@"*************%@",[NSRunLoop currentRunLoop].currentMode);
+//    NSLog(@"-------%@",[NSRunLoop currentRunLoop]);
+   // NSTimer
+    //这样就能优化程序 循环内大量的临时在一次循环的时候都会释放。
+    for (int i=0; i<1; i++) {
+         UIView *view11 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+        @autoreleasepool {
+            UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+            NSLog(@"++++++%@",view);
+        }
+        
+        
+    }
 }
 #endif
 - (void)dealloc {
