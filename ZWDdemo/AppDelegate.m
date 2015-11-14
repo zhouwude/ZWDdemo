@@ -64,6 +64,8 @@
 //    self.window.rootViewController = vc;
 //    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+    NSString *str =NSLocalizedString(@"hehe", nil);
+    
     NSArray *array = @[@1,@2,@3];
     NSLog(@"    地址  %p",array);
     NSArray *array1 = [array copy];

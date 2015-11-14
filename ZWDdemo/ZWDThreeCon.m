@@ -7,8 +7,16 @@
 //
 
 #import "ZWDThreeCon.h"
-
+#import "YYViewHierarchy3D.h"
 @implementation ZWDThreeCon
+- (IBAction)dddddd:(id)sender {
+    [YYViewHierarchy3D hide];
+}
+- (IBAction)qqqqqqq:(id)sender {
+    
+    [YYViewHierarchy3D show];
+    
+}
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     NSLog(@"*************%@",[NSRunLoop currentRunLoop].currentMode);
     

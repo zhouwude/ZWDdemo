@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620162741BF720AC00D2B03A /* YYViewHierarchy3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 620162731BF720AC00D2B03A /* YYViewHierarchy3D.m */; };
 		6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */; };
 		622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87AD1BCE46B300E087C3 /* FontInfo.m */; };
 		622E87B21BCE47A300E087C3 /* UIFont+WDCustomLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87B11BCE47A300E087C3 /* UIFont+WDCustomLoader.m */; };
@@ -64,6 +65,8 @@
 		032F93A811B7F3BC0040258D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		288C094BF799D785FD715845 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2894438EE090D7640629B74E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		620162721BF720AC00D2B03A /* YYViewHierarchy3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewHierarchy3D.h; sourceTree = "<group>"; };
+		620162731BF720AC00D2B03A /* YYViewHierarchy3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewHierarchy3D.m; sourceTree = "<group>"; };
 		6213B0C81B6C7B940082C5C1 /* ZWDTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDTwoView.h; sourceTree = "<group>"; };
 		6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDTwoView.m; sourceTree = "<group>"; };
 		622E87AC1BCE46B300E087C3 /* FontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontInfo.h; path = ../ZWDdemo/FontInfo.h; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 		62CED26C1B64ED9D00C1034C /* ZWDdemo */ = {
 			isa = PBXGroup;
 			children = (
+				620162721BF720AC00D2B03A /* YYViewHierarchy3D.h */,
+				620162731BF720AC00D2B03A /* YYViewHierarchy3D.m */,
 				62CED2711B64ED9D00C1034C /* AppDelegate.h */,
 				62CED2721B64ED9D00C1034C /* AppDelegate.m */,
 				62D228791B95949F00DDB9AE /* ZWDsecondViewController.h */,
@@ -484,6 +489,7 @@
 				62CD9D561B9C8A1F007B6278 /* ZWDYCCustomView.m in Sources */,
 				6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */,
 				62CD9D511B9C8898007B6278 /* ZWDViewControllerIB.m in Sources */,
+				620162741BF720AC00D2B03A /* YYViewHierarchy3D.m in Sources */,
 				62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */,
 				622E87B51BCE480A00E087C3 /* UIFont+CustomFont.m in Sources */,
 				62CED2761B64ED9D00C1034C /* ViewController.m in Sources */,
