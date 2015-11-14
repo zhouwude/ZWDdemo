@@ -13,9 +13,7 @@
     [YYViewHierarchy3D hide];
 }
 - (IBAction)qqqqqqq:(id)sender {
-    
     [YYViewHierarchy3D show];
-    
 }
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     NSLog(@"*************%@",[NSRunLoop currentRunLoop].currentMode);
