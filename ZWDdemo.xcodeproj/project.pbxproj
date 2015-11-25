@@ -47,6 +47,10 @@
 		62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D228811B9686F900DDB9AE /* ZWDSuperClass.m */; };
 		62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D228841B96871100DDB9AE /* ZWDChildClass.m */; };
 		62E113D21BD8F75C00EDBF42 /* 000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62E113D11BD8F75C00EDBF42 /* 000.jpg */; };
+		62EA338E1C054C5F008712BB /* MLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA33861C054C5F008712BB /* MLBaseView.m */; };
+		62EA338F1C054C5F008712BB /* UIButton+MBIBnspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA33891C054C5F008712BB /* UIButton+MBIBnspectable.m */; };
+		62EA33901C054C5F008712BB /* UILabel+MBIBnsepectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA338B1C054C5F008712BB /* UILabel+MBIBnsepectable.m */; };
+		62EA33911C054C5F008712BB /* UIView+MBIBnspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA338D1C054C5F008712BB /* UIView+MBIBnspectable.m */; };
 		62FDC1F61BD09F9F002F4197 /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FDC1F51BD09F9F002F4197 /* customButton.m */; };
 		A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C094BF799D785FD715845 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -135,6 +139,14 @@
 		62D228831B96871100DDB9AE /* ZWDChildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDChildClass.h; sourceTree = "<group>"; };
 		62D228841B96871100DDB9AE /* ZWDChildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDChildClass.m; sourceTree = "<group>"; };
 		62E113D11BD8F75C00EDBF42 /* 000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000.jpg; sourceTree = "<group>"; };
+		62EA33851C054C5F008712BB /* MLBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBaseView.h; sourceTree = "<group>"; };
+		62EA33861C054C5F008712BB /* MLBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBaseView.m; sourceTree = "<group>"; };
+		62EA33881C054C5F008712BB /* UIButton+MBIBnspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MBIBnspectable.h"; sourceTree = "<group>"; };
+		62EA33891C054C5F008712BB /* UIButton+MBIBnspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MBIBnspectable.m"; sourceTree = "<group>"; };
+		62EA338A1C054C5F008712BB /* UILabel+MBIBnsepectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MBIBnsepectable.h"; sourceTree = "<group>"; };
+		62EA338B1C054C5F008712BB /* UILabel+MBIBnsepectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MBIBnsepectable.m"; sourceTree = "<group>"; };
+		62EA338C1C054C5F008712BB /* UIView+MBIBnspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MBIBnspectable.h"; sourceTree = "<group>"; };
+		62EA338D1C054C5F008712BB /* UIView+MBIBnspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MBIBnspectable.m"; sourceTree = "<group>"; };
 		62FDC1F41BD09F9F002F4197 /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customButton.h; sourceTree = "<group>"; };
 		62FDC1F51BD09F9F002F4197 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,6 +218,8 @@
 		62CED2611B64ED9D00C1034C = {
 			isa = PBXGroup;
 			children = (
+				62EA33841C054C5F008712BB /* Base */,
+				62EA33871C054C5F008712BB /* Objective-c */,
 				62E113D11BD8F75C00EDBF42 /* 000.jpg */,
 				62FDC1F41BD09F9F002F4197 /* customButton.h */,
 				62FDC1F51BD09F9F002F4197 /* customButton.m */,
@@ -311,6 +325,28 @@
 				62D183CF1B8AF8AC0014FE0F /* JRSwizzle.m */,
 			);
 			path = "Method Swizzling";
+			sourceTree = "<group>";
+		};
+		62EA33841C054C5F008712BB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				62EA33851C054C5F008712BB /* MLBaseView.h */,
+				62EA33861C054C5F008712BB /* MLBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		62EA33871C054C5F008712BB /* Objective-c */ = {
+			isa = PBXGroup;
+			children = (
+				62EA33881C054C5F008712BB /* UIButton+MBIBnspectable.h */,
+				62EA33891C054C5F008712BB /* UIButton+MBIBnspectable.m */,
+				62EA338A1C054C5F008712BB /* UILabel+MBIBnsepectable.h */,
+				62EA338B1C054C5F008712BB /* UILabel+MBIBnsepectable.m */,
+				62EA338C1C054C5F008712BB /* UIView+MBIBnspectable.h */,
+				62EA338D1C054C5F008712BB /* UIView+MBIBnspectable.m */,
+			);
+			path = "Objective-c";
 			sourceTree = "<group>";
 		};
 		BE584EFFF331F7F8698F9063 /* Pods */ = {
@@ -482,6 +518,7 @@
 			files = (
 				62D2287B1B95949F00DDB9AE /* ZWDsecondViewController.m in Sources */,
 				62CBE98F1B70640D00573DA8 /* sark+category.m in Sources */,
+				62EA338E1C054C5F008712BB /* MLBaseView.m in Sources */,
 				6262E4DC1B671D4B00AC58CE /* ZWDStar.m in Sources */,
 				62D209361B7463B60030C39B /* UIDevice+ZWDNTNUExtensions.m in Sources */,
 				62D183CD1B8AF23D0014FE0F /* NSArray+Swizzle.m in Sources */,
@@ -495,18 +532,21 @@
 				62CED2761B64ED9D00C1034C /* ViewController.m in Sources */,
 				62CD2D2B1B9D302F00EED513 /* UIView+extention.m in Sources */,
 				62FDC1F61BD09F9F002F4197 /* customButton.m in Sources */,
+				62EA338F1C054C5F008712BB /* UIButton+MBIBnspectable.m in Sources */,
 				629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */,
 				622E87B81BCE48E900E087C3 /* NSString+CustomFont.m in Sources */,
 				62D228851B96871100DDB9AE /* ZWDChildClass.m in Sources */,
 				622E87B21BCE47A300E087C3 /* UIFont+WDCustomLoader.m in Sources */,
 				6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */,
 				629419991BE34CA100D2C078 /* ZWDLayoutTest.m in Sources */,
+				62EA33911C054C5F008712BB /* UIView+MBIBnspectable.m in Sources */,
 				62D183D11B8AF8AC0014FE0F /* JRSwizzle.m in Sources */,
 				62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */,
 				622E87BB1BCE49F000E087C3 /* ZWDFontUseViewCon.m in Sources */,
 				622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */,
 				62B83E011BB043FC00474AB2 /* persion.xcdatamodeld in Sources */,
 				6262E4E71B67276C00AC58CE /* ZWDViewController.m in Sources */,
+				62EA33901C054C5F008712BB /* UILabel+MBIBnsepectable.m in Sources */,
 				62CBE98C1B7063E900573DA8 /* sark.m in Sources */,
 				62CED2701B64ED9D00C1034C /* main.m in Sources */,
 			);
