@@ -22,6 +22,7 @@
 		6262E4EC1B6730CB00AC58CE /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 6262E4EB1B6730CB00AC58CE /* index.js */; };
 		6262E4EF1B67337D00AC58CE /* ZWDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6262E4EE1B67337D00AC58CE /* ZWDView.m */; };
 		6262E4F71B67597A00AC58CE /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = 6262E4F61B67597A00AC58CE /* index1.html */; };
+		628806FC1C115F7C0069D54B /* ZWDBridgeUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 628806FB1C115F7C0069D54B /* ZWDBridgeUse.m */; };
 		629419991BE34CA100D2C078 /* ZWDLayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 629419981BE34CA100D2C078 /* ZWDLayoutTest.m */; };
 		629D90841B662CFC0038D6DF /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D90831B662CFC0038D6DF /* NSObject+DLIntrospection.m */; };
 		62AFBD321BF4E19D00544DB9 /* ZWDThreeCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AFBD311BF4E19D00544DB9 /* ZWDThreeCon.m */; };
@@ -94,6 +95,8 @@
 		6262E4ED1B67337D00AC58CE /* ZWDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDView.h; sourceTree = "<group>"; };
 		6262E4EE1B67337D00AC58CE /* ZWDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDView.m; sourceTree = "<group>"; };
 		6262E4F61B67597A00AC58CE /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index1.html; path = DLIntrospection/index1.html; sourceTree = "<group>"; };
+		628806FA1C115F7C0069D54B /* ZWDBridgeUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDBridgeUse.h; sourceTree = "<group>"; };
+		628806FB1C115F7C0069D54B /* ZWDBridgeUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDBridgeUse.m; sourceTree = "<group>"; };
 		629419971BE34CA100D2C078 /* ZWDLayoutTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDLayoutTest.h; sourceTree = "<group>"; };
 		629419981BE34CA100D2C078 /* ZWDLayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDLayoutTest.m; sourceTree = "<group>"; };
 		629D90821B662CFC0038D6DF /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
@@ -287,6 +290,8 @@
 				62CD2D2A1B9D302F00EED513 /* UIView+extention.m */,
 				629419971BE34CA100D2C078 /* ZWDLayoutTest.h */,
 				629419981BE34CA100D2C078 /* ZWDLayoutTest.m */,
+				628806FA1C115F7C0069D54B /* ZWDBridgeUse.h */,
+				628806FB1C115F7C0069D54B /* ZWDBridgeUse.m */,
 			);
 			path = ZWDdemo;
 			sourceTree = "<group>";
@@ -526,6 +531,7 @@
 				62CD9D561B9C8A1F007B6278 /* ZWDYCCustomView.m in Sources */,
 				6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */,
 				62CD9D511B9C8898007B6278 /* ZWDViewControllerIB.m in Sources */,
+				628806FC1C115F7C0069D54B /* ZWDBridgeUse.m in Sources */,
 				620162741BF720AC00D2B03A /* YYViewHierarchy3D.m in Sources */,
 				62D228821B9686F900DDB9AE /* ZWDSuperClass.m in Sources */,
 				622E87B51BCE480A00E087C3 /* UIFont+CustomFont.m in Sources */,
