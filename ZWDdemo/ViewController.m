@@ -21,6 +21,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+   // 去掉UINavigationBar底部的分割线
+     //导航栏背景透明
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    //导航栏底部线清楚
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    self.navigationController.navigationBar.translucent = YES;
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+    //加了没有图的图上去。这样的话，可以直接让navigationBar和下面的视图浑然一体。
     [self.button setTitle:@"周武德\ue415服务网发" forState:UIControlStateNormal];
     
     self.sark = [ZWDStar new];
@@ -44,6 +52,9 @@
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
+}
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 @end

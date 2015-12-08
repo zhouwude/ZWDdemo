@@ -12,6 +12,7 @@
 #import <objc/runtime.h>
 //举个例子好了，我想钩一下NSArray的lastObject 方法，只需两个步骤。
 //第一步：给NSArray加一个我自己的lastObject
+void funtion11(int *p);
 int main(int argc, char * argv[]) {
     @autoreleasepool {
 //        Method ori_Method =  class_getInstanceMethod([NSArray class], @selector(lastObject));
@@ -48,6 +49,21 @@ int main(int argc, char * argv[]) {
 
 
 //        }
+        
+    
+        
+        int a = 100;
+        funtion11(&a);
+        NSLog(@"ppppp_________%@",@(a));
+        
        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+
+void funtion11(int *p){
+    
+    *p = 100;
+    
+    
+}
+

@@ -52,6 +52,8 @@
 		62EA338F1C054C5F008712BB /* UIButton+MBIBnspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA33891C054C5F008712BB /* UIButton+MBIBnspectable.m */; };
 		62EA33901C054C5F008712BB /* UILabel+MBIBnsepectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA338B1C054C5F008712BB /* UILabel+MBIBnsepectable.m */; };
 		62EA33911C054C5F008712BB /* UIView+MBIBnspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EA338D1C054C5F008712BB /* UIView+MBIBnspectable.m */; };
+		62EB02F31C167524008BF798 /* ZWDNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EB02F21C167524008BF798 /* ZWDNav.m */; };
+		62EB02F91C16760E008BF798 /* ZWDTabBarCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EB02F81C16760E008BF798 /* ZWDTabBarCon.m */; };
 		62FDC1F61BD09F9F002F4197 /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FDC1F51BD09F9F002F4197 /* customButton.m */; };
 		A008C1E8CF92D603310CBDC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C094BF799D785FD715845 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -150,6 +152,10 @@
 		62EA338B1C054C5F008712BB /* UILabel+MBIBnsepectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MBIBnsepectable.m"; sourceTree = "<group>"; };
 		62EA338C1C054C5F008712BB /* UIView+MBIBnspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MBIBnspectable.h"; sourceTree = "<group>"; };
 		62EA338D1C054C5F008712BB /* UIView+MBIBnspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MBIBnspectable.m"; sourceTree = "<group>"; };
+		62EB02F11C167524008BF798 /* ZWDNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDNav.h; sourceTree = "<group>"; };
+		62EB02F21C167524008BF798 /* ZWDNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDNav.m; sourceTree = "<group>"; };
+		62EB02F71C16760E008BF798 /* ZWDTabBarCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDTabBarCon.h; sourceTree = "<group>"; };
+		62EB02F81C16760E008BF798 /* ZWDTabBarCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDTabBarCon.m; sourceTree = "<group>"; };
 		62FDC1F41BD09F9F002F4197 /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customButton.h; sourceTree = "<group>"; };
 		62FDC1F51BD09F9F002F4197 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -226,6 +232,10 @@
 				62E113D11BD8F75C00EDBF42 /* 000.jpg */,
 				62FDC1F41BD09F9F002F4197 /* customButton.h */,
 				62FDC1F51BD09F9F002F4197 /* customButton.m */,
+				62EB02F11C167524008BF798 /* ZWDNav.h */,
+				62EB02F21C167524008BF798 /* ZWDNav.m */,
+				62EB02F71C16760E008BF798 /* ZWDTabBarCon.h */,
+				62EB02F81C16760E008BF798 /* ZWDTabBarCon.m */,
 				622E87AF1BCE477300E087C3 /* fontLoad */,
 				62B83DFF1BB043FC00474AB2 /* persion.xcdatamodeld */,
 				6262E4E31B67268D00AC58CE /* index.html */,
@@ -547,7 +557,9 @@
 				629419991BE34CA100D2C078 /* ZWDLayoutTest.m in Sources */,
 				62EA33911C054C5F008712BB /* UIView+MBIBnspectable.m in Sources */,
 				62D183D11B8AF8AC0014FE0F /* JRSwizzle.m in Sources */,
+				62EB02F91C16760E008BF798 /* ZWDTabBarCon.m in Sources */,
 				62CED2731B64ED9D00C1034C /* AppDelegate.m in Sources */,
+				62EB02F31C167524008BF798 /* ZWDNav.m in Sources */,
 				622E87BB1BCE49F000E087C3 /* ZWDFontUseViewCon.m in Sources */,
 				622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */,
 				62B83E011BB043FC00474AB2 /* persion.xcdatamodeld in Sources */,
@@ -691,7 +703,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ZWDdemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haier.3dprint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -709,7 +721,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = ZWDdemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haier.3dprint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
