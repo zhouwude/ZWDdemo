@@ -17,6 +17,7 @@
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
+    
     return self.selectedViewController.supportedInterfaceOrientations;
 }
 

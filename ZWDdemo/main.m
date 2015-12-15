@@ -50,6 +50,13 @@ int main(int argc, char * argv[]) {
 
 //        }
         
+        
+        CFStringRef ref = CFStringCreateWithCString(kCFAllocatorDefault, "sdeeed", kCFStringEncodingUTF8);
+        
+        NSString *str = (__bridge  NSString *)(ref);
+       
+        NSLog(@"---%@---%@",str,ref);
+        CFRelease(ref);
     
         
         int a = 100;
