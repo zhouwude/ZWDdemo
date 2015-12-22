@@ -5,6 +5,9 @@
 //  Created by 周武德 on 15/7/26.
 //  Copyright (c) 2015年 周武德. All rights reserved.
 //
+
+
+#define A @"fff"
 @import QuartzCore;
 
 #import "AppDelegate.h"
@@ -21,6 +24,7 @@
 @end
 
 @implementation AppDelegate
+static NSString const *string = @"11111111";
 //@synthesize window = _window;
 
 /*
@@ -64,7 +68,7 @@
 //    self.window.rootViewController = vc;
 //    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
-    NSString *str =NSLocalizedString(@"hehe", nil);
+    //NSString *str =NSLocalizedString(@"hehe", nil);
     
     NSArray *array = @[@1,@2,@3];
     NSLog(@"    地址  %p",array);
@@ -73,7 +77,8 @@
     NSArray *array2 = [array mutableCopy];
     NSLog(@"    地址  %p",array2);
     NSMutableArray *mutableArray = [NSMutableArray array];
-    
+    NSNumber *mun = @(100);
+   
     NSLog(@"    地址--  %p",mutableArray);
     NSArray *mutableArray1 = [mutableArray copy];
     NSLog(@"    地址---  %p",mutableArray1);
@@ -89,6 +94,19 @@
      */
     //[self.window makeKeyAndVisible];
     //导航栏背景透明[self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];//导航栏底部线清楚self.navigationController.navigationBar.barStyle = UIBarStyleBlack;self.navigationController.navigationBar.translucent = YES;[self.navigationController.navigationBar setShadowImage:[UIImage new]];加了没有图的图上去。这样的话，可以直接让navigationBar和下面的视图浑然一体。
+    
+    NSString *a = A;
+    NSString *b = A;
+    NSString *c = A;
+    NSString *d = A;
+ 
+    NSLog(@"*********%p",a);
+    NSLog(@"*********%p",b);
+    NSLog(@"*********%p",c);
+    NSLog(@"*********%p",d);
+    
+    
+
     return YES;
 }
 
