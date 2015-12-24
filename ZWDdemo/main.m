@@ -186,6 +186,23 @@ int main(int argc, char * argv[]) {
         
        // UILocalizedIndexedCollation
         
+        /* 1 controlCharacterSet//控制符
+          2 whitespaceCharacterSet
+          3 whitespaceAndNewlineCharacterSet//空格换行
+          4 decimalDigitCharacterSet//小数
+          5 letterCharacterSet//文字
+          6 lowercaseLetterCharacterSet//小写字母
+          7 uppercaseLetterCharacterSet//大写字母
+          8 nonBaseCharacterSet//非基础
+          9 alphanumericCharacterSet//字母数字
+          10 decomposableCharacterSet//可分解
+          11 illegalCharacterSet//非法
+          12 punctuationCharacterSet//标点
+          13 capitalizedLetterCharacterSet//大写
+          14 symbolCharacterSet//符号
+          15 newlineCharacterSet//换行符
+         */
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         
     }

@@ -378,10 +378,18 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7GT-9T-x3N">
                                 <rect key="frame" x="29" y="120" width="256" height="179"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61n-Sh-du6">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61n-Sh-du6" customClass="MLView">
                                         <rect key="frame" x="8" y="8" width="240" height="41"/>
                                         <color key="backgroundColor" red="1" green="0.39349067370000002" blue="0.27806213530000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <gestureRecognizers/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.22376967380000001" green="1" blue="0.51035660270000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="GUR-Ml-tYI" appends="YES" id="v0N-RP-cdU"/>
                                         </connections>
@@ -420,6 +428,11 @@
                             <constraint firstItem="6Kt-oI-rUz" firstAttribute="top" secondItem="7GT-9T-x3N" secondAttribute="bottom" constant="301" id="Ksv-tn-Yh0"/>
                             <constraint firstItem="7GT-9T-x3N" firstAttribute="leading" secondItem="erE-bt-tml" secondAttribute="leading" constant="29" id="awe-tv-Mh3"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="1" green="0.84186855930000004" blue="0.17278927299999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
                         <outlet property="layout" destination="1cI-Hv-qSa" id="p1W-fM-xQG"/>
