@@ -27,6 +27,12 @@
 static NSString const *string = @"11111111";
 //@synthesize window = _window;
 
+//在一个自定义的view中或者自定义cell中 model一个控制器
+
+
+
+
+
 /*
  #include做的事情其实就是简单的复制粘贴，将目标.h文件中的内容一字不落地拷贝到当前文件中，并替换掉这句include，而#import实质上做的事情和#include是一样的，只不过OC为了避免重复引用可能带来的编译错误（这种情况在引用关系复杂的时候很可能发生，比如B和C都引用了A，D又同时引用了B和C，这样A中定义的东西就在D中被定义了两次，重复了），而加入了#import，从而保证每个头文件只会被引用一次。
  这个Module定义了首要头文件（UIKit.h），需要导出的子modules（所有），以及需要link的框架名称（UIKit）。需要指出的是，现在Module还不支持第三方的框架，所以只有SDK内置的框架能够从这个特性中受益。另外，在C++的源代码中，Modules也是被禁用的。
@@ -104,9 +110,11 @@ static NSString const *string = @"11111111";
     NSLog(@"*********%p",b);
     NSLog(@"*********%p",c);
     NSLog(@"*********%p",d);
-    
-    
-
+    //在一个自定义的view中或者自定义cell中 model一个控制器
+    //当当前工程中不只有一个windoow时要注意当前的keywindow是谁如果不注意则会出现错误 自定义的window在不使用时一定要记得registerkeywindow方法
+    // 尽量使用cgrectzero  －－不要使用 （0，0，0，0）
+    //[UIApplication sharedApplication].keyWindow
+     // self.window
     return YES;
 }
 
