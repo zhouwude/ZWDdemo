@@ -4,8 +4,6 @@
 //
 //  Created by 周武德 on 15/9/2.
 //  Copyright (c) 2015年 周武德. All rights reserved.
-//
-
 #import "ZWDSuperClass.h"
 //如果多个类继承NSObject类，那在所有的子类在程序启动的时候，都会调用load方法，
 //在调用load这个方法要分几种情况：
@@ -37,7 +35,7 @@
  initialize的自然调用是在第一次主动使用当前类的时候（lazy，这一点和Java类的“clinit”的很像）。
  在initialize方法收到调用时，运行环境基本健全。
  initialize的运行过程中是能保证线程安全的。
- 和load不同，即使子类不实现initialize方法，会把父类的实现继承过来调用一遍。注意的是在此之前，父类的方法已经被执行过一次了，同样不需要super调用。
+ 和load不同，即使子类不实现initialize方法,会把父类的实现继承过来调用一遍。注意的是在此之前，父类的方法已经被执行过一次了，同样不需要super调用。
  由于initialize的这些特点，使得其应用比load要略微广泛一些。可用来做一些初始化工作，或者单例模式的一种实现方案。
  */
 
