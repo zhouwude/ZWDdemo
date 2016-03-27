@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		620162741BF720AC00D2B03A /* YYViewHierarchy3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 620162731BF720AC00D2B03A /* YYViewHierarchy3D.m */; };
+		6204C8381CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6204C8371CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.m */; };
 		620D905E1C28D88400973947 /* ZWDDynamicViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 620D905D1C28D88400973947 /* ZWDDynamicViewCon.m */; };
 		6213B0CA1B6C7B940082C5C1 /* ZWDTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6213B0C91B6C7B940082C5C1 /* ZWDTwoView.m */; };
 		622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E87AD1BCE46B300E087C3 /* FontInfo.m */; };
@@ -75,6 +76,8 @@
 		2894438EE090D7640629B74E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		620162721BF720AC00D2B03A /* YYViewHierarchy3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewHierarchy3D.h; sourceTree = "<group>"; };
 		620162731BF720AC00D2B03A /* YYViewHierarchy3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewHierarchy3D.m; sourceTree = "<group>"; };
+		6204C8361CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDCompressionAndHuggingControllerViewController.h; sourceTree = "<group>"; };
+		6204C8371CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDCompressionAndHuggingControllerViewController.m; sourceTree = "<group>"; };
 		620D905C1C28D88400973947 /* ZWDDynamicViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDDynamicViewCon.h; sourceTree = "<group>"; };
 		620D905D1C28D88400973947 /* ZWDDynamicViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDDynamicViewCon.m; sourceTree = "<group>"; };
 		6213B0C81B6C7B940082C5C1 /* ZWDTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDTwoView.h; sourceTree = "<group>"; };
@@ -307,6 +310,8 @@
 				628806FB1C115F7C0069D54B /* ZWDBridgeUse.m */,
 				620D905C1C28D88400973947 /* ZWDDynamicViewCon.h */,
 				620D905D1C28D88400973947 /* ZWDDynamicViewCon.m */,
+				6204C8361CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.h */,
+				6204C8371CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.m */,
 			);
 			path = ZWDdemo;
 			sourceTree = "<group>";
@@ -569,6 +574,7 @@
 				622E87BB1BCE49F000E087C3 /* ZWDFontUseViewCon.m in Sources */,
 				622E87AE1BCE46B300E087C3 /* FontInfo.m in Sources */,
 				62B83E011BB043FC00474AB2 /* persion.xcdatamodeld in Sources */,
+				6204C8381CA7BECC00FE4162 /* ZWDCompressionAndHuggingControllerViewController.m in Sources */,
 				6262E4E71B67276C00AC58CE /* ZWDViewController.m in Sources */,
 				62EA33901C054C5F008712BB /* UILabel+MBIBnsepectable.m in Sources */,
 				62CBE98C1B7063E900573DA8 /* sark.m in Sources */,

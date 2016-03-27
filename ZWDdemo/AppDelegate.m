@@ -6,7 +6,8 @@
 //  Copyright (c) 2015年 周武德. All rights reserved.
 //
 
-
+#define B(A) @#A
+#define C(a,b) (a)##(b)
 #define A @"fff"
 @import QuartzCore;
 
@@ -65,6 +66,20 @@ static NSString const *string = @"11111111";
  */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"----%@",B(1+3));
+    
+    
+    
+
+    NSString *text = @"(1,(2,3),(4,(5,6)7))";
+    NSCharacterSet *nonDigitCharacterSet = [[NSCharacterSet characterSetWithCharactersInString:@"0123456789."] invertedSet];
+    
+    NSString *result = [NSString stringWithFormat:@"(%@)",[[text componentsSeparatedByCharactersInSet:nonDigitCharacterSet] componentsJoinedByString:@""]];
+    
+    
+    NSLog(@"%@",result);
+    
+    
     NSLog(@"*************%@",[NSRunLoop currentRunLoop].currentMode);
     NSLog(@"------%@",[[NSBundle mainBundle] pathForResource:@"index" ofType:@"js"]);
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);

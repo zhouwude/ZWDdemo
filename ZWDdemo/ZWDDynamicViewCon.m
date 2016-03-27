@@ -16,6 +16,8 @@
     a =!a;
     a?(self.layout.priority = 999):(self.layout.priority=750);
     [UIView animateWithDuration:0.1 animations:^{
+        //setNeedsLayout标记布局需要更新
+        //立即刷新布局
         [self.view layoutIfNeeded];
     }];
 }

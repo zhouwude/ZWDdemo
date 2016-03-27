@@ -16,6 +16,16 @@
 void funtion11(int *p);
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
+        
+        
+        NSString *text = @"(1,(2,3),(4,(5,6)7))";
+        NSCharacterSet *nonDigitCharacterSet = [[NSCharacterSet characterSetWithCharactersInString:@"0123456789."] invertedSet];
+        
+        NSString *result = [NSString stringWithFormat:@"(%@)",[[text componentsSeparatedByCharactersInSet:nonDigitCharacterSet] componentsJoinedByString:@""]];
+        
+        
+        NSLog(@"%@",result);
 //        Method ori_Method =  class_getInstanceMethod([NSArray class], @selector(lastObject));
 //        Method my_Method = class_getInstanceMethod([NSArray class], @selector(myLastObject));
 //        method_exchangeImplementations(ori_Method, my_Method);
