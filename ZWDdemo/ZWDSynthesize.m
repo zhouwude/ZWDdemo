@@ -71,7 +71,21 @@
     
 }
 /*
-
+ 在 protocol 中使用 property 只会生成 setter 和 getter 方法声明,我们使用属性的目的,是希望遵守我协议的对象能实现该属性
+ category 使用 @property 也是只会生成 setter 和 getter 方法的声明,如果我们真的需要给 category 增加属性的实现,需要借助于运行时的两个函数：
+ 
+ objc_setAssociatedObject
+ objc_getAssociatedObject
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  在有了自动合成属性实例变量之后，@synthesize还有哪些使用场景？
 
  回答这个问题前，我们要搞清楚一个问题，什么情况下不会autosynthesis（自动合成）？
