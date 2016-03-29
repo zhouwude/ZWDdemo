@@ -11,7 +11,10 @@
 
 @property (nonatomic)  NSString *firstName;
 @property (nonatomic)  NSString *lastName;
-
+/*
+ @property有两个对应的词，一个是 @synthesize，一个是 @dynamic。如果 @synthesize和 @dynamic都没写，那么默认的就是@syntheszie var = _var;
+ @synthesize 的语义是如果你没有手动实现 setter 方法和 getter 方法，那么编译器会自动为你加上这两个方法。
+ @dynamic 告诉编译器：属性的 setter 与 getter 方法由用户自己实现，不自动生成。（当然对于 readonly 的属性只需提供 getter 即可）。假如一个属性被声明为 @dynamic var，然后你没有提供 @setter方法和 @getter 方法，编译的时候没问题，但是当程序运行到 instance.var = someVar，由于缺 setter 方法会导致程序崩溃；或者当运行到 someVar = var 时，由于缺 getter 方法同样会导致崩溃。编译时没问题，运行时才执行相应的方法，这就是所谓的动态绑定。*/
 //在上例中，会生成两个实例变量，其名称分别为
 //_firstName 与 _lastName。也可以在类的实现代码里通过 @synthesize 语法来指定实例变量的名字:
 @end
@@ -73,7 +76,7 @@
 
  回答这个问题前，我们要搞清楚一个问题，什么情况下不会autosynthesis（自动合成）？
  
- 同时重写了 setter 和 getter 时
+ 同时重写了 setter 和 getter 时 就不会自动合成_name的变量必须手动添加变量 或者使用@synthesize去手动指定成员变量。
  重写了只读属性的 getter 时
  使用了 @dynamic 时
  在 @protocol 中定义的所有属性
